@@ -1,0 +1,7 @@
+C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\BibliotecaProject\obj\Debug\netcoreapp3.0\BibliotecaProject.csproj.AssemblyReference.cache
+C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\BibliotecaProject\obj\Debug\netcoreapp3.0\BibliotecaProject.Principal.resources
+C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\BibliotecaProject\obj\Debug\netcoreapp3.0\BibliotecaProject.csproj.GenerateResource.cache
+C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\BibliotecaProject\obj\Debug\netcoreapp3.0\BibliotecaProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\BibliotecaProject\obj\Debug\netcoreapp3.0\BibliotecaProject.AssemblyInfoInputs.cache
+C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\BibliotecaProject\obj\Debug\netcoreapp3.0\BibliotecaProject.AssemblyInfo.cs
+C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\BibliotecaProject\obj\Debug\netcoreapp3.0\BibliotecaProject.csproj.CoreCompileInputs.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CX6Rv/5hl0qU0oyecEOhDv+wTYIm6jovSjm7NMtA5Y4/qpnIixoA/+3zxjA3HErB7uyxWrbZsYjj0tC8pPZJjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\BibliotecaProject\\Conexiones\\Conexiones.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SrPap\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}
