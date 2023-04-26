@@ -10,3 +10,15 @@ C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\Conexiones\obj\Debug\net6.0
 C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\Conexiones\obj\Debug\net6.0\refint\Conexiones.dll
 C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\Conexiones\obj\Debug\net6.0\Conexiones.pdb
 C:\Users\SrPap\OneDrive\Escritorio\BibliotecaProject\Conexiones\obj\Debug\net6.0\ref\Conexiones.dll
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.deps.json
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.dll
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.pdb
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.csproj.AssemblyReference.cache
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.AssemblyInfoInputs.cache
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.AssemblyInfo.cs
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.csproj.CoreCompileInputs.cache
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.dll
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\refint\Conexiones.dll
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.pdb
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\Conexiones\obj\Debug\net6.0\ref\Conexiones.dll

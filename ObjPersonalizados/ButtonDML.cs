@@ -17,7 +17,7 @@ namespace ObjPersonalizados
         //Datos para diseño :)
         public int borderSize = 3;
         public int borderRadius = 40;
-        public Color borderColor = Color.FromArgb(19,45,70);
+        public Color borderColor = Color.FromArgb(106,110,121);
 
         //Metodos para poder setear los datos al momento de diseñar,  personalizar mejor el boton :)
         public ButtonDML()

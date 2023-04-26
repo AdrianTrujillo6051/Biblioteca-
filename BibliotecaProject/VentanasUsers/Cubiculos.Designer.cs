@@ -31,6 +31,7 @@
             panelFondo = new Panel();
             panelCubiculos = new FlowLayoutPanel();
             panelManipulacion = new Panel();
+            buttondml1 = new ObjPersonalizados.ButtonDML();
             CubiculosInfoDGV = new DataGridView();
             panelFondo.SuspendLayout();
             panelManipulacion.SuspendLayout();
@@ -60,12 +61,26 @@
             // panelManipulacion
             // 
             panelManipulacion.BackColor = Color.FromArgb(19, 45, 70);
+            panelManipulacion.Controls.Add(buttondml1);
             panelManipulacion.Controls.Add(CubiculosInfoDGV);
             panelManipulacion.Dock = DockStyle.Left;
             panelManipulacion.Location = new Point(0, 0);
             panelManipulacion.Name = "panelManipulacion";
             panelManipulacion.Size = new Size(312, 450);
             panelManipulacion.TabIndex = 2;
+            // 
+            // buttondml1
+            // 
+            buttondml1.BackColor = Color.FromArgb(106, 110, 121);
+            buttondml1.FlatAppearance.BorderSize = 0;
+            buttondml1.FlatStyle = FlatStyle.Flat;
+            buttondml1.ForeColor = Color.White;
+            buttondml1.Location = new Point(405, 154);
+            buttondml1.Name = "buttondml1";
+            buttondml1.Size = new Size(150, 40);
+            buttondml1.TabIndex = 3;
+            buttondml1.Text = "buttondml1";
+            buttondml1.UseVisualStyleBackColor = false;
             // 
             // CubiculosInfoDGV
             // 
@@ -97,5 +112,6 @@
         private Panel panelManipulacion;
         private DataGridView CubiculosInfoDGV;
         private Label lb1;
+        private ObjPersonalizados.ButtonDML buttondml1;
     }
 }

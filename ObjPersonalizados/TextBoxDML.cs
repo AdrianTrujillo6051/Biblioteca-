@@ -21,7 +21,7 @@ namespace ObjPersonalizados
 
         public Color colorBorde = Color.FromArgb(26, 30, 41);
 
-        public bool subrayadoEstilo = false;
+        public bool subrayadoEstilo = true;
 
         public int tamanoBorde = 4;
 
@@ -33,10 +33,15 @@ namespace ObjPersonalizados
 
         }
 
-        //Para obtener el texto de nuestro TextBox1 :)
+        //Para manipular el texto de nuestro TextBox1 :)
         public string getTextFromTXT()
         {
             return textBox1.Text;
+        }
+
+        public void setTextFromTXT(string texto)
+        {
+            textBox1.Text = texto;
         }
 
 

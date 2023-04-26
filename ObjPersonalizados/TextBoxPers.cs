@@ -35,10 +35,15 @@ namespace ObjPersonalizados
             InitializeComponent();
         }
 
-        //Para obtener el texto de nuestro TextBox1 :)
+        //Para manipular el texto de nuestro TextBox1 :)
         public string getTextFromTXT()
         {
             return textBox1.Text;
+        }
+
+        public void setTextFromTXT(string texto)
+        {
+            textBox1.Text = texto;
         }
 
 

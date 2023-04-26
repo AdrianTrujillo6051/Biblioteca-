@@ -253,7 +253,6 @@
             Controls.Add(PanelNavegacion);
             Name = "Principal";
             Text = ":)";
-            Resize += Principal_Resize;
             PanelNavegacion.ResumeLayout(false);
             PanelLayout.ResumeLayout(false);
             PanelInfo.ResumeLayout(false);

@@ -19,14 +19,13 @@ namespace BibliotecaProject
         {
             InitializeComponent();
 
+            //Prueba para implementar admin or user
+            Boolean admin = true;
             UserLBL.Text = "Bienvenido: Alfredo";
 
             //Cargamos el chatBot o alguna otra mamada:)
             ReposoForm form = new ReposoForm();
             utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
-
-            //Prueba para implementar admin or user
-            Boolean admin = true;
 
             //Creamos una lista con nuestros botones, esto con el fin de poder acomodarlos y habilitar
             //los ques sean admin o usuario, dinamicamente claro esta :)
@@ -108,6 +107,7 @@ namespace BibliotecaProject
             utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
         }
 
+        //Prestamos de cubiculos :USER
         private void BTNPrestCub_Click(object sender, EventArgs e)
         {
             Cubiculos form = new Cubiculos();
@@ -117,10 +117,6 @@ namespace BibliotecaProject
         //BOTONES CODIGO DE REDIRECCIONAMIENTO----------------------------------------------------------------------------------------------------------------------------------
 
         //Resize event, para adaptar el tamaño de algo nuc
-        private void Principal_Resize(object sender, EventArgs e)
-        {
-
-        }
 
 
     }
