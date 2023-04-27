@@ -95,8 +95,8 @@
             textBoxdml2.Padding = new Padding(7);
             textBoxdml2.passCaracter = false;
             textBoxdml2.Size = new Size(250, 36);
-            textBoxdml2.soloLetras = false;
-            textBoxdml2.soloNumeros = true;
+            textBoxdml2.soloLetras = true;
+            textBoxdml2.soloNumeros = false;
             textBoxdml2.TabIndex = 6;
             // 
             // label3
@@ -119,7 +119,7 @@
             textBoxdml3.passCaracter = false;
             textBoxdml3.Size = new Size(250, 36);
             textBoxdml3.soloLetras = false;
-            textBoxdml3.soloNumeros = true;
+            textBoxdml3.soloNumeros = false;
             textBoxdml3.TabIndex = 8;
             // 
             // DMLAlumn

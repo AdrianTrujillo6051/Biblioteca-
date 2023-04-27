@@ -37,7 +37,6 @@
             BTNEntrSalid = new ObjPersonalizados.CircleButton();
             BTNGenteEnBib = new ObjPersonalizados.CircleButton();
             BTNPrestCub = new ObjPersonalizados.CircleButton();
-            BTNPrestLib = new ObjPersonalizados.CircleButton();
             BTNRegistros = new ObjPersonalizados.CircleButton();
             PanelInfo = new Panel();
             UserLBL = new Label();
@@ -80,7 +79,6 @@
             PanelLayout.Controls.Add(BTNEntrSalid);
             PanelLayout.Controls.Add(BTNGenteEnBib);
             PanelLayout.Controls.Add(BTNPrestCub);
-            PanelLayout.Controls.Add(BTNPrestLib);
             PanelLayout.Controls.Add(BTNRegistros);
             PanelLayout.Dock = DockStyle.Fill;
             PanelLayout.Location = new Point(334, 0);
@@ -100,7 +98,7 @@
             BTNLibrosPrest.FlatAppearance.BorderSize = 0;
             BTNLibrosPrest.FlatStyle = FlatStyle.Flat;
             BTNLibrosPrest.ForeColor = Color.White;
-            BTNLibrosPrest.Location = new Point(291, 12);
+            BTNLibrosPrest.Location = new Point(234, 12);
             BTNLibrosPrest.Name = "BTNLibrosPrest";
             BTNLibrosPrest.Size = new Size(51, 63);
             BTNLibrosPrest.TabIndex = 7;
@@ -119,7 +117,7 @@
             BTNEntrSalid.FlatAppearance.BorderSize = 0;
             BTNEntrSalid.FlatStyle = FlatStyle.Flat;
             BTNEntrSalid.ForeColor = Color.White;
-            BTNEntrSalid.Location = new Point(234, 12);
+            BTNEntrSalid.Location = new Point(177, 12);
             BTNEntrSalid.Name = "BTNEntrSalid";
             BTNEntrSalid.Size = new Size(51, 63);
             BTNEntrSalid.TabIndex = 6;
@@ -137,7 +135,7 @@
             BTNGenteEnBib.FlatAppearance.BorderSize = 0;
             BTNGenteEnBib.FlatStyle = FlatStyle.Flat;
             BTNGenteEnBib.ForeColor = Color.White;
-            BTNGenteEnBib.Location = new Point(177, 12);
+            BTNGenteEnBib.Location = new Point(120, 12);
             BTNGenteEnBib.Name = "BTNGenteEnBib";
             BTNGenteEnBib.Size = new Size(51, 63);
             BTNGenteEnBib.TabIndex = 5;
@@ -155,30 +153,12 @@
             BTNPrestCub.FlatAppearance.BorderSize = 0;
             BTNPrestCub.FlatStyle = FlatStyle.Flat;
             BTNPrestCub.ForeColor = Color.White;
-            BTNPrestCub.Location = new Point(120, 12);
+            BTNPrestCub.Location = new Point(63, 12);
             BTNPrestCub.Name = "BTNPrestCub";
             BTNPrestCub.Size = new Size(51, 63);
             BTNPrestCub.TabIndex = 4;
             BTNPrestCub.UseVisualStyleBackColor = false;
             BTNPrestCub.Click += BTNPrestCub_Click;
-            // 
-            // BTNPrestLib
-            // 
-            BTNPrestLib.Admin = true;
-            BTNPrestLib.BackColor = Color.FromArgb(200, 234, 252);
-            BTNPrestLib.BackgroundImage = Properties.Resources.close;
-            BTNPrestLib.BackgroundImageLayout = ImageLayout.Stretch;
-            BTNPrestLib.borderColor = Color.Transparent;
-            BTNPrestLib.borderRadius = 48;
-            BTNPrestLib.borderSize = 5;
-            BTNPrestLib.FlatAppearance.BorderSize = 0;
-            BTNPrestLib.FlatStyle = FlatStyle.Flat;
-            BTNPrestLib.ForeColor = Color.White;
-            BTNPrestLib.Location = new Point(63, 12);
-            BTNPrestLib.Name = "BTNPrestLib";
-            BTNPrestLib.Size = new Size(51, 63);
-            BTNPrestLib.TabIndex = 3;
-            BTNPrestLib.UseVisualStyleBackColor = false;
             // 
             // BTNRegistros
             // 
@@ -264,7 +244,6 @@
         private Panel PanelSubventanas;
         private System.Windows.Forms.Timer Reloj;
         private Panel PanelNavegacion;
-        private ObjPersonalizados.CircleButton BTNPrestLib;
         private Panel PanelInfo;
         private Label HoraLBL;
         private Panel PanelLayout;

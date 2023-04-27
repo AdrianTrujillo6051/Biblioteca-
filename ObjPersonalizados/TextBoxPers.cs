@@ -34,6 +34,22 @@ namespace ObjPersonalizados
         }
 
         [Category("TextBox properties")]
+        public Color textBoxBackColor
+        {
+            get { return textBox1.BackColor; }
+            set { textBox1.BackColor = value; }
+
+        }
+
+        [Category("TextBox properties")]
+        public Color textBoxFontColor
+        {
+            get { return textBox1.ForeColor; }
+            set { textBox1.ForeColor = value; }
+
+        }
+
+        [Category("TextBox properties")]
         public bool soloNumeros { get; set; }
 
         [Category("TextBox properties")]

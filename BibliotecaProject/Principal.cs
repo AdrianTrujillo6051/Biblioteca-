@@ -33,7 +33,6 @@ namespace BibliotecaProject
             List<CircleButton> botonesNav = new List<CircleButton>();
 
             botonesNav.Add(BTNEntrSalid);
-            botonesNav.Add(BTNPrestLib);
             botonesNav.Add(BTNPrestCub);
             botonesNav.Add(BTNGenteEnBib);
             botonesNav.Add(BTNRegistros);

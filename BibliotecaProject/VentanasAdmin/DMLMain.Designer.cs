@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             PanelDML = new Panel();
-            AlumnBtn = new Button();
             panelSubVentanas = new Panel();
+            AlumnBtn = new Button();
             PanelDML.SuspendLayout();
             SuspendLayout();
             // 
@@ -43,6 +43,15 @@
             PanelDML.Name = "PanelDML";
             PanelDML.Size = new Size(253, 450);
             PanelDML.TabIndex = 0;
+            // 
+            // panelSubVentanas
+            // 
+            panelSubVentanas.BackColor = SystemColors.Control;
+            panelSubVentanas.Dock = DockStyle.Fill;
+            panelSubVentanas.Location = new Point(253, 0);
+            panelSubVentanas.Name = "panelSubVentanas";
+            panelSubVentanas.Size = new Size(547, 450);
+            panelSubVentanas.TabIndex = 1;
             // 
             // AlumnBtn
             // 
@@ -58,15 +67,6 @@
             AlumnBtn.Text = "Alumnos";
             AlumnBtn.UseVisualStyleBackColor = false;
             AlumnBtn.Click += AlumnBtn_Click;
-            // 
-            // panelSubVentanas
-            // 
-            panelSubVentanas.BackColor = SystemColors.Control;
-            panelSubVentanas.Dock = DockStyle.Fill;
-            panelSubVentanas.Location = new Point(253, 0);
-            panelSubVentanas.Name = "panelSubVentanas";
-            panelSubVentanas.Size = new Size(547, 450);
-            panelSubVentanas.TabIndex = 1;
             // 
             // DMLMain
             // 
