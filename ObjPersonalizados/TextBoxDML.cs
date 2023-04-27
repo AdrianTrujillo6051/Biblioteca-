@@ -101,8 +101,14 @@ namespace ObjPersonalizados
         //Evento para validaciones
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (soloNumeros) if (util.validarNumeros(e)) errorExiste.SetError(this, "Solo numeros");
-                else if (soloLetras) if (util.validarLetras(e)) errorExiste.SetError(this, "Solo letras");
+            if (soloNumeros)
+            {
+                if (util.validarNumeros(e)) errorExiste.SetError(this, "Solo numeros");
+            }
+            else if (soloLetras)
+            {
+                if (util.validarLetras(e)) errorExiste.SetError(this, "Solo letras");
+            }
         }
     }
 }
