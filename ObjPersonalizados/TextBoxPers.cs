@@ -12,6 +12,9 @@ namespace ObjPersonalizados
 {
     public partial class TextBoxPers : UserControl
     {
+        //Instancia del objeto que nos permite realizar validaciones :)
+        Utilidades util = new Utilidades();
+
         //Campos modificables prro
         [Category("TextBox properties")]
         public Color colorBorde { get; set; }
@@ -29,6 +32,12 @@ namespace ObjPersonalizados
             set { textBox1.UseSystemPasswordChar = value; }
 
         }
+
+        [Category("TextBox properties")]
+        public bool soloNumeros { get; set; }
+
+        [Category("TextBox properties")]
+        public bool soloLetras { get; set; }
 
         public TextBoxPers()
         {
@@ -89,5 +98,13 @@ namespace ObjPersonalizados
                 this.Height = textBox1.Height + this.Padding.Top + this.Padding.Bottom;
             }
         }
+
+        //Evento para validaciones
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (soloNumeros) if (util.validarNumeros(e)) errorExiste.SetError(this, "Solo numeros");
+                else if (soloLetras) if (util.validarLetras(e)) errorExiste.SetError(this, "Solo letras");
+        }
+
     }
 }

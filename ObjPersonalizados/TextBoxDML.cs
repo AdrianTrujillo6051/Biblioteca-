@@ -17,6 +17,9 @@ namespace ObjPersonalizados
             InitializeComponent();
         }
 
+        //Instancia del objeto que nos permite realizar validaciones :)
+        Utilidades util = new Utilidades();
+
         //Campos estaticos :)
 
         public Color colorBorde = Color.FromArgb(26, 30, 41);
@@ -32,6 +35,13 @@ namespace ObjPersonalizados
             set { textBox1.UseSystemPasswordChar = value; }
 
         }
+
+        [Category("TextBox properties")]
+        public bool soloNumeros { get; set; }
+
+        [Category("TextBox properties")]
+        public bool soloLetras { get; set; }
+
 
         //Para manipular el texto de nuestro TextBox1 :)
         public string getTextFromTXT()
@@ -57,7 +67,7 @@ namespace ObjPersonalizados
                 dibujarBorde.Alignment = System.Drawing.Drawing2D.PenAlignment.Inset;
 
                 if (subrayadoEstilo) g.DrawLine(dibujarBorde, 0, this.Height - 1, this.Width, this.Height - 1); //Estilo linea
-                else g.DrawRectangle(dibujarBorde, 0, 0, this.Width - 0.5F, this.Height - 0.5F); //Estilo caja
+                else g.DrawRectangle(dibujarBorde, 0, 0, this.Width - 0.5F, this.Height - 0.5F); //Estilo caja              
             }
         }
 
@@ -86,6 +96,13 @@ namespace ObjPersonalizados
 
                 this.Height = textBox1.Height + this.Padding.Top + this.Padding.Bottom;
             }
+        }
+
+        //Evento para validaciones
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (soloNumeros) if (util.validarNumeros(e)) errorExiste.SetError(this, "Solo numeros");
+                else if (soloLetras) if (util.validarLetras(e)) errorExiste.SetError(this, "Solo letras");
         }
     }
 }

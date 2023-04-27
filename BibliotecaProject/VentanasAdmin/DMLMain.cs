@@ -27,5 +27,11 @@ namespace BibliotecaProject.VentanasAdmin
             DMLAlumn dMLAlumn = new DMLAlumn();
             utilGraficos.openForm(dMLAlumn, formActivo, this.panelSubVentanas);
         }
+
+        private void AlumnBtn_Click(object sender, EventArgs e)
+        {
+            DMLAlumn form = new DMLAlumn();
+            utilGraficos.openForm(form, formActivo, panelSubVentanas);
+        }
     }
 }

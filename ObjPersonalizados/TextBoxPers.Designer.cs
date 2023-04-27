@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             textBox1 = new TextBox();
+            errorExiste = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)errorExiste).BeginInit();
             SuspendLayout();
             // 
             // textBox1
@@ -41,6 +44,11 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(236, 22);
             textBox1.TabIndex = 0;
+            textBox1.KeyPress += textBox1_KeyPress;
+            // 
+            // errorExiste
+            // 
+            errorExiste.ContainerControl = this;
             // 
             // TextBoxPers
             // 
@@ -52,6 +60,7 @@
             Name = "TextBoxPers";
             Padding = new Padding(7);
             Size = new Size(250, 30);
+            ((System.ComponentModel.ISupportInitialize)errorExiste).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -59,5 +68,6 @@
         #endregion
 
         private TextBox textBox1;
+        private ErrorProvider errorExiste;
     }
 }
