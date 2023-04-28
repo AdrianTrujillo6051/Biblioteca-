@@ -22,7 +22,18 @@ namespace BibliotecaProject
         public ReposoForm()
         {
             InitializeComponent();
+            //Ajustamos el tamaño dependiendo de la resolucion
+            double altura = Screen.PrimaryScreen.Bounds.Height;
 
+            if (altura < 800)
+            {
+                frontPageImg.Size = new Size(285, 376);
+                //int posX = elemento.Location.X;
+                //elemento.Location = new System.Drawing.Point(52, 23);
+                lblAutor.Location = new System.Drawing.Point(lblAutor.Location.X - 170, lblAutor.Location.Y);
+                lblDescrrpcion.Location = new System.Drawing.Point(lblDescrrpcion.Location.X - 170, lblDescrrpcion.Location.Y);
+                lblTitulo.Location = new System.Drawing.Point(lblTitulo.Location.X - 170, lblTitulo.Location.Y);
+            }
 
             //NOTA: Si quieren añadir libros deben de cargar primero una imagen a los recursos locales del proyecto, despues crear un objeto como los de abajo con la estructura:
             //* Imagen * Titulo * Autor * Sinopsis

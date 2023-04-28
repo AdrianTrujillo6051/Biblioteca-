@@ -22,6 +22,7 @@ namespace BibliotecaProject.VentanasUsers
         {
             InitializeComponent();
 
+
             //Ocultamos nuestro DGV pa que no se vea feo alv :)
             CubiculosInfoDGV.Visible = false;
             panelManipulacion.Visible = false;
@@ -130,7 +131,7 @@ namespace BibliotecaProject.VentanasUsers
         }
 
 
-        //-------------------PRESTAR Y DEVOLVER BOTONES ----------------------------------------------------------------------------------------------------------------------------------
+//-------------------PRESTAR Y DEVOLVER BOTONES ----------------------------------------------------------------------------------------------------------------------------------
         private void PedirBTN_Click(object sender, EventArgs e)
         {
             //Validamos si tenemos los campos necesarios para hacer la incersion
@@ -191,7 +192,7 @@ namespace BibliotecaProject.VentanasUsers
                 notEmpty = false;
                 errorFormulario.SetError(TXTCodCubPres, "No admite campos vacios");
             }
-            else if (TXTCodigoAlum.getTextFromTXT() == string.Empty)
+            if (TXTCodigoAlum.getTextFromTXT() == string.Empty)
             {
                 notEmpty = false;
                 errorFormulario.SetError(TXTCodigoAlum, "No admite campos vacios");

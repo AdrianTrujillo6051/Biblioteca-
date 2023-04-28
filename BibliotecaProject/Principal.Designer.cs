@@ -42,6 +42,7 @@
             UserLBL = new Label();
             FechaLBL = new Label();
             HoraLBL = new Label();
+            BTNPrestamos = new ObjPersonalizados.CircleButton();
             PanelNavegacion.SuspendLayout();
             PanelLayout.SuspendLayout();
             PanelInfo.SuspendLayout();
@@ -75,6 +76,7 @@
             // PanelLayout
             // 
             PanelLayout.AutoScroll = true;
+            PanelLayout.Controls.Add(BTNPrestamos);
             PanelLayout.Controls.Add(BTNLibrosPrest);
             PanelLayout.Controls.Add(BTNEntrSalid);
             PanelLayout.Controls.Add(BTNGenteEnBib);
@@ -224,6 +226,25 @@
             HoraLBL.TabIndex = 0;
             HoraLBL.Text = "5:02";
             // 
+            // BTNPrestamos
+            // 
+            BTNPrestamos.Admin = false;
+            BTNPrestamos.BackColor = Color.FromArgb(200, 234, 252);
+            BTNPrestamos.BackgroundImage = Properties.Resources.ok1;
+            BTNPrestamos.BackgroundImageLayout = ImageLayout.Stretch;
+            BTNPrestamos.borderColor = Color.Transparent;
+            BTNPrestamos.borderRadius = 48;
+            BTNPrestamos.borderSize = 5;
+            BTNPrestamos.FlatAppearance.BorderSize = 0;
+            BTNPrestamos.FlatStyle = FlatStyle.Flat;
+            BTNPrestamos.ForeColor = Color.White;
+            BTNPrestamos.Location = new Point(291, 12);
+            BTNPrestamos.Name = "BTNPrestamos";
+            BTNPrestamos.Size = new Size(51, 63);
+            BTNPrestamos.TabIndex = 8;
+            BTNPrestamos.UseVisualStyleBackColor = false;
+            BTNPrestamos.Click += BTNPrestamos_Click;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -254,5 +275,6 @@
         private ObjPersonalizados.CircleButton BTNLibrosPrest;
         private Label FechaLBL;
         private Label UserLBL;
+        private ObjPersonalizados.CircleButton BTNPrestamos;
     }
 }

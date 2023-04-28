@@ -18,6 +18,7 @@ namespace BibliotecaProject
         public Principal()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
 
             //Prueba para implementar admin or user
             Boolean admin = true;
@@ -37,6 +38,7 @@ namespace BibliotecaProject
             botonesNav.Add(BTNGenteEnBib);
             botonesNav.Add(BTNRegistros);
             botonesNav.Add(BTNLibrosPrest);
+            botonesNav.Add(BTNPrestamos);
 
             //Ocultamos todos los botones para despues mostrar unicamente los que necesitamos :)
             foreach (CircleButton elemento in botonesNav) elemento.Visible = false;
@@ -113,9 +115,13 @@ namespace BibliotecaProject
             utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
         }
 
-        //BOTONES CODIGO DE REDIRECCIONAMIENTO----------------------------------------------------------------------------------------------------------------------------------
+        private void BTNPrestamos_Click(object sender, EventArgs e)
+        {
+            Prestamos form = new Prestamos();
+            utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
+        }
 
-        //Resize event, para adaptar el tamaño de algo nuc
+        //BOTONES CODIGO DE REDIRECCIONAMIENTO----------------------------------------------------------------------------------------------------------------------------------
 
 
     }

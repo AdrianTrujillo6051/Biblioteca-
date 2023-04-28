@@ -16,7 +16,10 @@
     <Compile Update="VentanasUsers\Cubiculos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="VentanasUsers\LibrosPrestamos.cs">
+    <Compile Update="VentanasAdmin\LibrosPrestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VentanasUsers\Prestamos.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
