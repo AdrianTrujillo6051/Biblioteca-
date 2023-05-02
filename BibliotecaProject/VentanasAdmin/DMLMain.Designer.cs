@@ -29,29 +29,22 @@
         private void InitializeComponent()
         {
             PanelDML = new Panel();
-            panelSubVentanas = new Panel();
             AlumnBtn = new Button();
+            panelSubVentanas = new Panel();
+            closeBTN = new Button();
             PanelDML.SuspendLayout();
             SuspendLayout();
             // 
             // PanelDML
             // 
             PanelDML.BackColor = Color.FromArgb(19, 45, 70);
+            PanelDML.Controls.Add(closeBTN);
             PanelDML.Controls.Add(AlumnBtn);
             PanelDML.Dock = DockStyle.Left;
             PanelDML.Location = new Point(0, 0);
             PanelDML.Name = "PanelDML";
             PanelDML.Size = new Size(253, 450);
             PanelDML.TabIndex = 0;
-            // 
-            // panelSubVentanas
-            // 
-            panelSubVentanas.BackColor = SystemColors.Control;
-            panelSubVentanas.Dock = DockStyle.Fill;
-            panelSubVentanas.Location = new Point(253, 0);
-            panelSubVentanas.Name = "panelSubVentanas";
-            panelSubVentanas.Size = new Size(547, 450);
-            panelSubVentanas.TabIndex = 1;
             // 
             // AlumnBtn
             // 
@@ -67,6 +60,30 @@
             AlumnBtn.Text = "Alumnos";
             AlumnBtn.UseVisualStyleBackColor = false;
             AlumnBtn.Click += AlumnBtn_Click;
+            // 
+            // panelSubVentanas
+            // 
+            panelSubVentanas.BackColor = SystemColors.Control;
+            panelSubVentanas.Dock = DockStyle.Fill;
+            panelSubVentanas.Location = new Point(253, 0);
+            panelSubVentanas.Name = "panelSubVentanas";
+            panelSubVentanas.Size = new Size(547, 450);
+            panelSubVentanas.TabIndex = 1;
+            // 
+            // closeBTN
+            // 
+            closeBTN.BackColor = Color.Transparent;
+            closeBTN.Dock = DockStyle.Bottom;
+            closeBTN.FlatStyle = FlatStyle.Popup;
+            closeBTN.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            closeBTN.ForeColor = SystemColors.Control;
+            closeBTN.Location = new Point(0, 393);
+            closeBTN.Name = "closeBTN";
+            closeBTN.Size = new Size(253, 57);
+            closeBTN.TabIndex = 4;
+            closeBTN.Text = "Cerrar";
+            closeBTN.UseVisualStyleBackColor = false;
+            closeBTN.Click += closeBTN_Click;
             // 
             // DMLMain
             // 
@@ -87,5 +104,6 @@
         private Panel PanelDML;
         private Panel panelSubVentanas;
         private Button AlumnBtn;
+        private Button closeBTN;
     }
 }

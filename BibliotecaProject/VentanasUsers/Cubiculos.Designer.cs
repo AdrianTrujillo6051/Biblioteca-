@@ -31,8 +31,13 @@
             components = new System.ComponentModel.Container();
             panelFondo = new Panel();
             subPanelNavigator = new Panel();
+            subSubPanelNavigator = new Panel();
             panelCubiculos = new FlowLayoutPanel();
+            panel1 = new Panel();
+            label10 = new Label();
+            panel2 = new Panel();
             panelDiv = new Panel();
+            closeBTN = new Button();
             DesplegarBTN = new Button();
             panelManipulacion = new Panel();
             PedirBTN = new ObjPersonalizados.ButtonDML();
@@ -55,6 +60,8 @@
             errorFormulario = new ErrorProvider(components);
             panelFondo.SuspendLayout();
             subPanelNavigator.SuspendLayout();
+            subSubPanelNavigator.SuspendLayout();
+            panel1.SuspendLayout();
             panelDiv.SuspendLayout();
             panelManipulacion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)CubiculosInfoDGV).BeginInit();
@@ -74,12 +81,22 @@
             // 
             // subPanelNavigator
             // 
-            subPanelNavigator.Controls.Add(panelCubiculos);
+            subPanelNavigator.Controls.Add(subSubPanelNavigator);
+            subPanelNavigator.Controls.Add(panel1);
             subPanelNavigator.Dock = DockStyle.Fill;
             subPanelNavigator.Location = new Point(481, 0);
             subPanelNavigator.Name = "subPanelNavigator";
             subPanelNavigator.Size = new Size(624, 715);
             subPanelNavigator.TabIndex = 3;
+            // 
+            // subSubPanelNavigator
+            // 
+            subSubPanelNavigator.Controls.Add(panelCubiculos);
+            subSubPanelNavigator.Dock = DockStyle.Fill;
+            subSubPanelNavigator.Location = new Point(0, 100);
+            subSubPanelNavigator.Name = "subSubPanelNavigator";
+            subSubPanelNavigator.Size = new Size(624, 615);
+            subSubPanelNavigator.TabIndex = 5;
             // 
             // panelCubiculos
             // 
@@ -88,18 +105,64 @@
             panelCubiculos.Location = new Point(0, 0);
             panelCubiculos.Name = "panelCubiculos";
             panelCubiculos.Padding = new Padding(20);
-            panelCubiculos.Size = new Size(624, 715);
+            panelCubiculos.Size = new Size(624, 615);
             panelCubiculos.TabIndex = 3;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(label10);
+            panel1.Controls.Add(panel2);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(624, 100);
+            panel1.TabIndex = 4;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 42F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.FromArgb(19, 45, 70);
+            label10.Location = new Point(6, 5);
+            label10.Name = "label10";
+            label10.Size = new Size(288, 74);
+            label10.TabIndex = 1;
+            label10.Text = "Cúbiculos";
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(19, 45, 70);
+            panel2.Dock = DockStyle.Bottom;
+            panel2.Location = new Point(0, 90);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(624, 10);
+            panel2.TabIndex = 0;
             // 
             // panelDiv
             // 
             panelDiv.BackColor = Color.FromArgb(19, 45, 70);
+            panelDiv.Controls.Add(closeBTN);
             panelDiv.Controls.Add(DesplegarBTN);
             panelDiv.Dock = DockStyle.Left;
             panelDiv.Location = new Point(432, 0);
             panelDiv.Name = "panelDiv";
             panelDiv.Size = new Size(49, 715);
             panelDiv.TabIndex = 4;
+            // 
+            // closeBTN
+            // 
+            closeBTN.BackColor = Color.Transparent;
+            closeBTN.Dock = DockStyle.Top;
+            closeBTN.FlatStyle = FlatStyle.Popup;
+            closeBTN.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            closeBTN.ForeColor = SystemColors.Control;
+            closeBTN.Location = new Point(0, 58);
+            closeBTN.Name = "closeBTN";
+            closeBTN.Size = new Size(49, 58);
+            closeBTN.TabIndex = 10;
+            closeBTN.Text = "X";
+            closeBTN.UseVisualStyleBackColor = false;
+            closeBTN.Click += Close_Click;
             // 
             // DesplegarBTN
             // 
@@ -386,6 +449,9 @@
             Text = "Cubiculos";
             panelFondo.ResumeLayout(false);
             subPanelNavigator.ResumeLayout(false);
+            subSubPanelNavigator.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             panelDiv.ResumeLayout(false);
             panelManipulacion.ResumeLayout(false);
             panelManipulacion.PerformLayout();
@@ -420,5 +486,10 @@
         private Label label3;
         private Label label2;
         private ErrorProvider errorFormulario;
+        private Panel subSubPanelNavigator;
+        private Panel panel1;
+        private Label label10;
+        private Panel panel2;
+        private Button closeBTN;
     }
 }

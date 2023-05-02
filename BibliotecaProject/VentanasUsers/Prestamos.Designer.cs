@@ -39,6 +39,7 @@
             label3 = new Label();
             label2 = new Label();
             TXTCod = new ObjPersonalizados.TextBoxPers();
+            closeBTN = new ObjPersonalizados.CircleButton();
             panelFondo.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -89,6 +90,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(19, 45, 70);
+            panel1.Controls.Add(closeBTN);
             panel1.Controls.Add(BuscarBTN);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label1);
@@ -177,6 +179,26 @@
             TXTCod.textBoxBackColor = Color.FromArgb(19, 45, 70);
             TXTCod.textBoxFontColor = SystemColors.Window;
             // 
+            // closeBTN
+            // 
+            closeBTN.Admin = false;
+            closeBTN.Anchor = AnchorStyles.Top;
+            closeBTN.BackColor = Color.FromArgb(26, 30, 41);
+            closeBTN.borderColor = Color.Empty;
+            closeBTN.borderRadius = 40;
+            closeBTN.borderSize = 0;
+            closeBTN.FlatAppearance.BorderSize = 0;
+            closeBTN.FlatStyle = FlatStyle.Flat;
+            closeBTN.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            closeBTN.ForeColor = SystemColors.Control;
+            closeBTN.Location = new Point(372, 15);
+            closeBTN.Name = "closeBTN";
+            closeBTN.Size = new Size(40, 40);
+            closeBTN.TabIndex = 24;
+            closeBTN.Text = "X";
+            closeBTN.UseVisualStyleBackColor = false;
+            closeBTN.Click += closeBTN_Click;
+            // 
             // Prestamos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -208,5 +230,6 @@
         private Label label2;
         private ObjPersonalizados.TextBoxPers TXTCod;
         private ObjPersonalizados.ButtonDML BuscarBTN;
+        private ObjPersonalizados.CircleButton closeBTN;
     }
 }

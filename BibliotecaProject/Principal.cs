@@ -26,13 +26,14 @@ namespace BibliotecaProject
 
             //Cargamos el chatBot o alguna otra mamada:)
             ReposoForm form = new ReposoForm();
-            utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
+            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
 
             //Creamos una lista con nuestros botones, esto con el fin de poder acomodarlos y habilitar
             //los ques sean admin o usuario, dinamicamente claro esta :)
             //Y seguiran el orden que tenemos aqui :)
             List<CircleButton> botonesNav = new List<CircleButton>();
 
+            botonesNav.Add(buscarLibBTN);
             botonesNav.Add(BTNEntrSalid);
             botonesNav.Add(BTNPrestCub);
             botonesNav.Add(BTNGenteEnBib);
@@ -97,7 +98,7 @@ namespace BibliotecaProject
         private void BTNRegistros_Click(object sender, EventArgs e)
         {
             DMLMain form = new DMLMain();
-            utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
+            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
 
@@ -105,20 +106,26 @@ namespace BibliotecaProject
         private void BTNLibrosPrest_Click(object sender, EventArgs e)
         {
             LibrosPrestamos form = new LibrosPrestamos();
-            utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
+            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
         //Prestamos de cubiculos :USER
         private void BTNPrestCub_Click(object sender, EventArgs e)
         {
             Cubiculos form = new Cubiculos();
-            utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
+            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
         private void BTNPrestamos_Click(object sender, EventArgs e)
         {
             Prestamos form = new Prestamos();
-            utilGraficos.openForm(form, formActivo, this.PanelSubventanas);
+            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
+        }
+
+        private void buscarLibBTN_Click(object sender, EventArgs e)
+        {
+            BuscadorLibros form = new BuscadorLibros();
+            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
         //BOTONES CODIGO DE REDIRECCIONAMIENTO----------------------------------------------------------------------------------------------------------------------------------

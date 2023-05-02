@@ -33,6 +33,7 @@
             Reloj = new System.Windows.Forms.Timer(components);
             PanelNavegacion = new Panel();
             PanelLayout = new Panel();
+            BTNPrestamos = new ObjPersonalizados.CircleButton();
             BTNLibrosPrest = new ObjPersonalizados.CircleButton();
             BTNEntrSalid = new ObjPersonalizados.CircleButton();
             BTNGenteEnBib = new ObjPersonalizados.CircleButton();
@@ -42,7 +43,7 @@
             UserLBL = new Label();
             FechaLBL = new Label();
             HoraLBL = new Label();
-            BTNPrestamos = new ObjPersonalizados.CircleButton();
+            buscarLibBTN = new ObjPersonalizados.CircleButton();
             PanelNavegacion.SuspendLayout();
             PanelLayout.SuspendLayout();
             PanelInfo.SuspendLayout();
@@ -76,6 +77,7 @@
             // PanelLayout
             // 
             PanelLayout.AutoScroll = true;
+            PanelLayout.Controls.Add(buscarLibBTN);
             PanelLayout.Controls.Add(BTNPrestamos);
             PanelLayout.Controls.Add(BTNLibrosPrest);
             PanelLayout.Controls.Add(BTNEntrSalid);
@@ -87,6 +89,25 @@
             PanelLayout.Name = "PanelLayout";
             PanelLayout.Size = new Size(1130, 175);
             PanelLayout.TabIndex = 2;
+            // 
+            // BTNPrestamos
+            // 
+            BTNPrestamos.Admin = false;
+            BTNPrestamos.BackColor = Color.FromArgb(200, 234, 252);
+            BTNPrestamos.BackgroundImage = Properties.Resources.ok1;
+            BTNPrestamos.BackgroundImageLayout = ImageLayout.Stretch;
+            BTNPrestamos.borderColor = Color.Transparent;
+            BTNPrestamos.borderRadius = 48;
+            BTNPrestamos.borderSize = 5;
+            BTNPrestamos.FlatAppearance.BorderSize = 0;
+            BTNPrestamos.FlatStyle = FlatStyle.Flat;
+            BTNPrestamos.ForeColor = Color.White;
+            BTNPrestamos.Location = new Point(291, 12);
+            BTNPrestamos.Name = "BTNPrestamos";
+            BTNPrestamos.Size = new Size(51, 63);
+            BTNPrestamos.TabIndex = 8;
+            BTNPrestamos.UseVisualStyleBackColor = false;
+            BTNPrestamos.Click += BTNPrestamos_Click;
             // 
             // BTNLibrosPrest
             // 
@@ -226,24 +247,25 @@
             HoraLBL.TabIndex = 0;
             HoraLBL.Text = "5:02";
             // 
-            // BTNPrestamos
+            // buscarLibBTN
             // 
-            BTNPrestamos.Admin = false;
-            BTNPrestamos.BackColor = Color.FromArgb(200, 234, 252);
-            BTNPrestamos.BackgroundImage = Properties.Resources.ok1;
-            BTNPrestamos.BackgroundImageLayout = ImageLayout.Stretch;
-            BTNPrestamos.borderColor = Color.Transparent;
-            BTNPrestamos.borderRadius = 48;
-            BTNPrestamos.borderSize = 5;
-            BTNPrestamos.FlatAppearance.BorderSize = 0;
-            BTNPrestamos.FlatStyle = FlatStyle.Flat;
-            BTNPrestamos.ForeColor = Color.White;
-            BTNPrestamos.Location = new Point(291, 12);
-            BTNPrestamos.Name = "BTNPrestamos";
-            BTNPrestamos.Size = new Size(51, 63);
-            BTNPrestamos.TabIndex = 8;
-            BTNPrestamos.UseVisualStyleBackColor = false;
-            BTNPrestamos.Click += BTNPrestamos_Click;
+            buscarLibBTN.Admin = true;
+            buscarLibBTN.BackColor = Color.FromArgb(200, 234, 252);
+            buscarLibBTN.BackgroundImage = Properties.Resources.book11;
+            buscarLibBTN.BackgroundImageLayout = ImageLayout.Stretch;
+            buscarLibBTN.borderColor = Color.Transparent;
+            buscarLibBTN.borderRadius = 48;
+            buscarLibBTN.borderSize = 5;
+            buscarLibBTN.FlatAppearance.BorderSize = 0;
+            buscarLibBTN.FlatStyle = FlatStyle.Flat;
+            buscarLibBTN.ForeColor = Color.White;
+            buscarLibBTN.Location = new Point(348, 12);
+            buscarLibBTN.Name = "buscarLibBTN";
+            buscarLibBTN.Padding = new Padding(7);
+            buscarLibBTN.Size = new Size(51, 63);
+            buscarLibBTN.TabIndex = 9;
+            buscarLibBTN.UseVisualStyleBackColor = false;
+            buscarLibBTN.Click += buscarLibBTN_Click;
             // 
             // Principal
             // 
@@ -276,5 +298,6 @@
         private Label FechaLBL;
         private Label UserLBL;
         private ObjPersonalizados.CircleButton BTNPrestamos;
+        private ObjPersonalizados.CircleButton buscarLibBTN;
     }
 }

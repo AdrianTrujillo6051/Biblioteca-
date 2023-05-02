@@ -54,6 +54,7 @@
             label7 = new Label();
             pictureBox1 = new PictureBox();
             errorForm = new ErrorProvider(components);
+            closeBTN = new ObjPersonalizados.CircleButton();
             Formulario.SuspendLayout();
             panelForm.SuspendLayout();
             panelInfo.SuspendLayout();
@@ -67,7 +68,7 @@
             Formulario.BorderStyle = BorderStyle.FixedSingle;
             Formulario.Controls.Add(panelForm);
             Formulario.Controls.Add(panelInfo);
-            Formulario.Location = new Point(215, 44);
+            Formulario.Location = new Point(214, 50);
             Formulario.Name = "Formulario";
             Formulario.Size = new Size(533, 596);
             Formulario.TabIndex = 0;
@@ -371,12 +372,33 @@
             // 
             errorForm.ContainerControl = this;
             // 
+            // closeBTN
+            // 
+            closeBTN.Admin = false;
+            closeBTN.Anchor = AnchorStyles.Top;
+            closeBTN.BackColor = Color.FromArgb(26, 30, 41);
+            closeBTN.borderColor = Color.Empty;
+            closeBTN.borderRadius = 40;
+            closeBTN.borderSize = 0;
+            closeBTN.FlatAppearance.BorderSize = 0;
+            closeBTN.FlatStyle = FlatStyle.Flat;
+            closeBTN.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            closeBTN.ForeColor = SystemColors.Control;
+            closeBTN.Location = new Point(707, 4);
+            closeBTN.Name = "closeBTN";
+            closeBTN.Size = new Size(40, 40);
+            closeBTN.TabIndex = 21;
+            closeBTN.Text = "X";
+            closeBTN.UseVisualStyleBackColor = false;
+            closeBTN.Click += closeBTN_Click;
+            // 
             // LibrosPrestamos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(937, 744);
+            Controls.Add(closeBTN);
             Controls.Add(Formulario);
             Name = "LibrosPrestamos";
             Text = "LibrosPrestamos";
@@ -417,5 +439,6 @@
         private Label label10;
         private Label label8;
         private Label label9;
+        private ObjPersonalizados.CircleButton closeBTN;
     }
 }

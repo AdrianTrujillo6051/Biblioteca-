@@ -33,5 +33,10 @@ namespace BibliotecaProject.VentanasAdmin
             DMLAlumn form = new DMLAlumn();
             utilGraficos.openForm(form, formActivo, panelSubVentanas);
         }
+
+        private void closeBTN_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -44,11 +44,11 @@ namespace BibliotecaProject.VentanasUsers
             {
                 panelManipulacion.Visible = true;
                 DesplegarBTN.Text = "<";
-            }  
+            }
         }
 
 
-//Evento generico para nuestros botones cubiculos
+        //Evento generico para nuestros botones cubiculos
         private void evento(object sender, EventArgs e)
         {
             //Obtenemos datos basicos del boton
@@ -131,7 +131,7 @@ namespace BibliotecaProject.VentanasUsers
         }
 
 
-//-------------------PRESTAR Y DEVOLVER BOTONES ----------------------------------------------------------------------------------------------------------------------------------
+        //-------------------PRESTAR Y DEVOLVER BOTONES ----------------------------------------------------------------------------------------------------------------------------------
         private void PedirBTN_Click(object sender, EventArgs e)
         {
             //Validamos si tenemos los campos necesarios para hacer la incersion
@@ -177,9 +177,9 @@ namespace BibliotecaProject.VentanasUsers
                 reloadCubiculos();
                 MessageBox.Show("Cubiculo devuelto correctamente!! :) ");
             }
-            catch 
+            catch
             {
-                MessageBox.Show("Error inesperado :(");            
+                MessageBox.Show("Error inesperado :(");
             }
         }
 
@@ -201,8 +201,13 @@ namespace BibliotecaProject.VentanasUsers
             return notEmpty;
         }
 
+        private void Close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 
-//-------------------PRESTAR Y DEVOLVER BOTONES ----------------------------------------------------------------------------------------------------------------------------------
+
+        //-------------------PRESTAR Y DEVOLVER BOTONES ----------------------------------------------------------------------------------------------------------------------------------
 
 
 

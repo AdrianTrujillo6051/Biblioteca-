@@ -22,6 +22,9 @@ namespace BibliotecaProject.VentanasUsers
             string fecha = "null";
             if (TXTFecha.getTextFromTXT() != string.Empty) fecha = TXTFecha.getTextFromTXT();
 
+
+
+            //Validamos si los campos no estan vacios 
             if (validar())
             {
                 try
@@ -32,6 +35,7 @@ namespace BibliotecaProject.VentanasUsers
 
                     Conexiones.ConnectDB.RealizarConexion(comandoInsert);
                     MessageBox.Show("Incersion correctamente realizada");
+
                 }
                 catch (Exception ex)
                 { MessageBox.Show("Error inesperado :( " + ex); }
@@ -89,7 +93,7 @@ namespace BibliotecaProject.VentanasUsers
 
                     MessageBox.Show("Libro devuelto correctamente...");
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 { MessageBox.Show("Error inesperado :( " + ex); }
 
             }
@@ -111,6 +115,11 @@ namespace BibliotecaProject.VentanasUsers
             }
 
             return notEmpty;
+        }
+
+        private void closeBTN_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

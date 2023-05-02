@@ -16,8 +16,13 @@ namespace BibliotecaProject.VentanasUsers
         {
             InitializeComponent();
 
-            DataSet ds = Conexiones.ConnectDB.RealizarConexion("SELECT * FROM prestamolibros");
-            PrestamosInfo.DataSource = ds.Tables[0];
+            try
+            {
+                DataSet ds = Conexiones.ConnectDB.RealizarConexion("SELECT * FROM prestamolibros");
+                PrestamosInfo.DataSource = ds.Tables[0];
+            }
+            catch { MessageBox.Show("Error inesperado..."); }
+
 
         }
 
@@ -31,6 +36,11 @@ namespace BibliotecaProject.VentanasUsers
             }
             catch { MessageBox.Show("Error inesperado..."); }
 
+        }
+
+        private void closeBTN_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
