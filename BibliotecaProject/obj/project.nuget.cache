@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XLuHnjd304bPlg3PsI2gZSWIP7RwwlAiYlHsCDm+8d5q4YVK2kYELXtrqBFANIgmhT6VicsvSp8w1i2E2B4/yA==",
+  "dgSpecHash": "tHBz2gOjd2GC0skyiF883dceUl25/4No32dGDNq2p2Ovx42MX4zoowfxTV67/TGTVf6GebW1VR1ia/UaC0ELog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT\\Biblioteca-\\BibliotecaProject\\BibliotecaProject.csproj",
+  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\BibliotecaProject\\BibliotecaProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SrPap\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
   ],

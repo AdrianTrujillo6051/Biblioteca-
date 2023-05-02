@@ -15,6 +15,9 @@ namespace BibliotecaProject.VentanasUsers
         public LibrosPrestamos()
         {
             InitializeComponent();
+            double altura = Screen.PrimaryScreen.Bounds.Height;
+
+            if (altura < 800) Formulario.Size = new Size(535, 391);
         }
 
         private void BTNEnviar_Click(object sender, EventArgs e)
