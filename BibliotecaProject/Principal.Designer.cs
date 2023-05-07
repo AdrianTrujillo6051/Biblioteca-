@@ -33,6 +33,14 @@
             Reloj = new System.Windows.Forms.Timer(components);
             PanelNavegacion = new Panel();
             PanelLayout = new Panel();
+            entradasLBL = new Label();
+            genteLBL = new Label();
+            registrosLBL = new Label();
+            historialLBL = new Label();
+            buscadorLBL = new Label();
+            prestamosLBL = new Label();
+            cubiculosLBL = new Label();
+            buscarLibBTN = new ObjPersonalizados.CircleButton();
             BTNPrestamos = new ObjPersonalizados.CircleButton();
             BTNLibrosPrest = new ObjPersonalizados.CircleButton();
             BTNEntrSalid = new ObjPersonalizados.CircleButton();
@@ -43,7 +51,6 @@
             UserLBL = new Label();
             FechaLBL = new Label();
             HoraLBL = new Label();
-            buscarLibBTN = new ObjPersonalizados.CircleButton();
             PanelNavegacion.SuspendLayout();
             PanelLayout.SuspendLayout();
             PanelInfo.SuspendLayout();
@@ -77,6 +84,13 @@
             // PanelLayout
             // 
             PanelLayout.AutoScroll = true;
+            PanelLayout.Controls.Add(entradasLBL);
+            PanelLayout.Controls.Add(genteLBL);
+            PanelLayout.Controls.Add(registrosLBL);
+            PanelLayout.Controls.Add(historialLBL);
+            PanelLayout.Controls.Add(buscadorLBL);
+            PanelLayout.Controls.Add(prestamosLBL);
+            PanelLayout.Controls.Add(cubiculosLBL);
             PanelLayout.Controls.Add(buscarLibBTN);
             PanelLayout.Controls.Add(BTNPrestamos);
             PanelLayout.Controls.Add(BTNLibrosPrest);
@@ -90,11 +104,108 @@
             PanelLayout.Size = new Size(1130, 175);
             PanelLayout.TabIndex = 2;
             // 
+            // entradasLBL
+            // 
+            entradasLBL.AutoSize = true;
+            entradasLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            entradasLBL.ForeColor = Color.FromArgb(200, 234, 252);
+            entradasLBL.Location = new Point(758, 111);
+            entradasLBL.Name = "entradasLBL";
+            entradasLBL.Size = new Size(54, 15);
+            entradasLBL.TabIndex = 17;
+            entradasLBL.Text = "Entradas";
+            // 
+            // genteLBL
+            // 
+            genteLBL.AutoSize = true;
+            genteLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            genteLBL.ForeColor = Color.FromArgb(200, 234, 252);
+            genteLBL.Location = new Point(376, 111);
+            genteLBL.Name = "genteLBL";
+            genteLBL.Size = new Size(42, 15);
+            genteLBL.TabIndex = 16;
+            genteLBL.Text = "Gente";
+            // 
+            // registrosLBL
+            // 
+            registrosLBL.AutoSize = true;
+            registrosLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            registrosLBL.ForeColor = Color.FromArgb(200, 234, 252);
+            registrosLBL.Location = new Point(693, 111);
+            registrosLBL.Name = "registrosLBL";
+            registrosLBL.Size = new Size(59, 15);
+            registrosLBL.TabIndex = 15;
+            registrosLBL.Text = "Registros";
+            // 
+            // historialLBL
+            // 
+            historialLBL.AutoSize = true;
+            historialLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            historialLBL.ForeColor = Color.FromArgb(200, 234, 252);
+            historialLBL.Location = new Point(634, 111);
+            historialLBL.Name = "historialLBL";
+            historialLBL.Size = new Size(53, 15);
+            historialLBL.TabIndex = 14;
+            historialLBL.Text = "Historial";
+            // 
+            // buscadorLBL
+            // 
+            buscadorLBL.AutoSize = true;
+            buscadorLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            buscadorLBL.ForeColor = Color.FromArgb(200, 234, 252);
+            buscadorLBL.Location = new Point(560, 111);
+            buscadorLBL.Name = "buscadorLBL";
+            buscadorLBL.Size = new Size(58, 15);
+            buscadorLBL.TabIndex = 13;
+            buscadorLBL.Text = "Buscador";
+            // 
+            // prestamosLBL
+            // 
+            prestamosLBL.AutoSize = true;
+            prestamosLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            prestamosLBL.ForeColor = Color.FromArgb(200, 234, 252);
+            prestamosLBL.Location = new Point(489, 111);
+            prestamosLBL.Name = "prestamosLBL";
+            prestamosLBL.Size = new Size(65, 15);
+            prestamosLBL.TabIndex = 12;
+            prestamosLBL.Text = "Préstamos";
+            // 
+            // cubiculosLBL
+            // 
+            cubiculosLBL.AutoSize = true;
+            cubiculosLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            cubiculosLBL.ForeColor = Color.FromArgb(200, 234, 252);
+            cubiculosLBL.Location = new Point(424, 111);
+            cubiculosLBL.Name = "cubiculosLBL";
+            cubiculosLBL.Size = new Size(59, 15);
+            cubiculosLBL.TabIndex = 11;
+            cubiculosLBL.Text = "Cubículos";
+            // 
+            // buscarLibBTN
+            // 
+            buscarLibBTN.Admin = false;
+            buscarLibBTN.BackColor = Color.FromArgb(200, 234, 252);
+            buscarLibBTN.BackgroundImage = Properties.Resources.bookBTN;
+            buscarLibBTN.BackgroundImageLayout = ImageLayout.Stretch;
+            buscarLibBTN.borderColor = Color.Transparent;
+            buscarLibBTN.borderRadius = 48;
+            buscarLibBTN.borderSize = 5;
+            buscarLibBTN.FlatAppearance.BorderSize = 0;
+            buscarLibBTN.FlatStyle = FlatStyle.Flat;
+            buscarLibBTN.ForeColor = Color.White;
+            buscarLibBTN.Location = new Point(348, 12);
+            buscarLibBTN.Name = "buscarLibBTN";
+            buscarLibBTN.Padding = new Padding(7);
+            buscarLibBTN.Size = new Size(51, 63);
+            buscarLibBTN.TabIndex = 9;
+            buscarLibBTN.UseVisualStyleBackColor = false;
+            buscarLibBTN.Click += buscarLibBTN_Click;
+            // 
             // BTNPrestamos
             // 
             BTNPrestamos.Admin = false;
             BTNPrestamos.BackColor = Color.FromArgb(200, 234, 252);
-            BTNPrestamos.BackgroundImage = Properties.Resources.ok1;
+            BTNPrestamos.BackgroundImage = Properties.Resources.findBTN1;
             BTNPrestamos.BackgroundImageLayout = ImageLayout.Stretch;
             BTNPrestamos.borderColor = Color.Transparent;
             BTNPrestamos.borderRadius = 48;
@@ -111,9 +222,9 @@
             // 
             // BTNLibrosPrest
             // 
-            BTNLibrosPrest.Admin = false;
+            BTNLibrosPrest.Admin = true;
             BTNLibrosPrest.BackColor = Color.FromArgb(200, 234, 252);
-            BTNLibrosPrest.BackgroundImage = Properties.Resources.important;
+            BTNLibrosPrest.BackgroundImage = Properties.Resources.checkBTN;
             BTNLibrosPrest.BackgroundImageLayout = ImageLayout.Stretch;
             BTNLibrosPrest.borderColor = Color.Transparent;
             BTNLibrosPrest.borderRadius = 48;
@@ -132,7 +243,7 @@
             // 
             BTNEntrSalid.Admin = false;
             BTNEntrSalid.BackColor = Color.FromArgb(200, 234, 252);
-            BTNEntrSalid.BackgroundImage = Properties.Resources.important;
+            BTNEntrSalid.BackgroundImage = Properties.Resources.homeBTN;
             BTNEntrSalid.BackgroundImageLayout = ImageLayout.Stretch;
             BTNEntrSalid.borderColor = Color.Transparent;
             BTNEntrSalid.borderRadius = 48;
@@ -150,7 +261,7 @@
             // 
             BTNGenteEnBib.Admin = true;
             BTNGenteEnBib.BackColor = Color.FromArgb(200, 234, 252);
-            BTNGenteEnBib.BackgroundImage = Properties.Resources.close;
+            BTNGenteEnBib.BackgroundImage = Properties.Resources.communityBTN;
             BTNGenteEnBib.BackgroundImageLayout = ImageLayout.Stretch;
             BTNGenteEnBib.borderColor = Color.Transparent;
             BTNGenteEnBib.borderRadius = 48;
@@ -168,7 +279,7 @@
             // 
             BTNPrestCub.Admin = false;
             BTNPrestCub.BackColor = Color.FromArgb(200, 234, 252);
-            BTNPrestCub.BackgroundImage = Properties.Resources.smile;
+            BTNPrestCub.BackgroundImage = Properties.Resources.cubicBTN;
             BTNPrestCub.BackgroundImageLayout = ImageLayout.Stretch;
             BTNPrestCub.borderColor = Color.Transparent;
             BTNPrestCub.borderRadius = 48;
@@ -187,7 +298,7 @@
             // 
             BTNRegistros.Admin = true;
             BTNRegistros.BackColor = Color.FromArgb(200, 234, 252);
-            BTNRegistros.BackgroundImage = Properties.Resources.close;
+            BTNRegistros.BackgroundImage = Properties.Resources.peopleBTN;
             BTNRegistros.BackgroundImageLayout = ImageLayout.Stretch;
             BTNRegistros.borderColor = Color.Transparent;
             BTNRegistros.borderRadius = 48;
@@ -247,26 +358,6 @@
             HoraLBL.TabIndex = 0;
             HoraLBL.Text = "5:02";
             // 
-            // buscarLibBTN
-            // 
-            buscarLibBTN.Admin = true;
-            buscarLibBTN.BackColor = Color.FromArgb(200, 234, 252);
-            buscarLibBTN.BackgroundImage = Properties.Resources.book11;
-            buscarLibBTN.BackgroundImageLayout = ImageLayout.Stretch;
-            buscarLibBTN.borderColor = Color.Transparent;
-            buscarLibBTN.borderRadius = 48;
-            buscarLibBTN.borderSize = 5;
-            buscarLibBTN.FlatAppearance.BorderSize = 0;
-            buscarLibBTN.FlatStyle = FlatStyle.Flat;
-            buscarLibBTN.ForeColor = Color.White;
-            buscarLibBTN.Location = new Point(348, 12);
-            buscarLibBTN.Name = "buscarLibBTN";
-            buscarLibBTN.Padding = new Padding(7);
-            buscarLibBTN.Size = new Size(51, 63);
-            buscarLibBTN.TabIndex = 9;
-            buscarLibBTN.UseVisualStyleBackColor = false;
-            buscarLibBTN.Click += buscarLibBTN_Click;
-            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -278,6 +369,7 @@
             Text = ":)";
             PanelNavegacion.ResumeLayout(false);
             PanelLayout.ResumeLayout(false);
+            PanelLayout.PerformLayout();
             PanelInfo.ResumeLayout(false);
             PanelInfo.PerformLayout();
             ResumeLayout(false);
@@ -299,5 +391,12 @@
         private Label UserLBL;
         private ObjPersonalizados.CircleButton BTNPrestamos;
         private ObjPersonalizados.CircleButton buscarLibBTN;
+        private Label cubiculosLBL;
+        private Label registrosLBL;
+        private Label historialLBL;
+        private Label buscadorLBL;
+        private Label prestamosLBL;
+        private Label entradasLBL;
+        private Label genteLBL;
     }
 }

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             PanelDML = new Panel();
+            closeBTN = new Button();
             AlumnBtn = new Button();
             panelSubVentanas = new Panel();
-            closeBTN = new Button();
             PanelDML.SuspendLayout();
             SuspendLayout();
             // 
@@ -43,8 +43,23 @@
             PanelDML.Dock = DockStyle.Left;
             PanelDML.Location = new Point(0, 0);
             PanelDML.Name = "PanelDML";
-            PanelDML.Size = new Size(253, 450);
+            PanelDML.Size = new Size(253, 407);
             PanelDML.TabIndex = 0;
+            // 
+            // closeBTN
+            // 
+            closeBTN.BackColor = Color.Transparent;
+            closeBTN.Dock = DockStyle.Bottom;
+            closeBTN.FlatStyle = FlatStyle.Popup;
+            closeBTN.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            closeBTN.ForeColor = SystemColors.Control;
+            closeBTN.Location = new Point(0, 350);
+            closeBTN.Name = "closeBTN";
+            closeBTN.Size = new Size(253, 57);
+            closeBTN.TabIndex = 4;
+            closeBTN.Text = "Cerrar";
+            closeBTN.UseVisualStyleBackColor = false;
+            closeBTN.Click += closeBTN_Click;
             // 
             // AlumnBtn
             // 
@@ -67,30 +82,15 @@
             panelSubVentanas.Dock = DockStyle.Fill;
             panelSubVentanas.Location = new Point(253, 0);
             panelSubVentanas.Name = "panelSubVentanas";
-            panelSubVentanas.Size = new Size(547, 450);
+            panelSubVentanas.Size = new Size(619, 407);
             panelSubVentanas.TabIndex = 1;
-            // 
-            // closeBTN
-            // 
-            closeBTN.BackColor = Color.Transparent;
-            closeBTN.Dock = DockStyle.Bottom;
-            closeBTN.FlatStyle = FlatStyle.Popup;
-            closeBTN.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            closeBTN.ForeColor = SystemColors.Control;
-            closeBTN.Location = new Point(0, 393);
-            closeBTN.Name = "closeBTN";
-            closeBTN.Size = new Size(253, 57);
-            closeBTN.TabIndex = 4;
-            closeBTN.Text = "Cerrar";
-            closeBTN.UseVisualStyleBackColor = false;
-            closeBTN.Click += closeBTN_Click;
             // 
             // DMLMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(872, 407);
             Controls.Add(panelSubVentanas);
             Controls.Add(PanelDML);
             Name = "DMLMain";

@@ -17,12 +17,12 @@ namespace BibliotecaProject.VentanasUsers
             InitializeComponent();
         }
 
+
+        //Hacer un prestamo
         private void BTNEnviar_Click(object sender, EventArgs e)
         {
             string fecha = "null";
             if (TXTFecha.getTextFromTXT() != string.Empty) fecha = TXTFecha.getTextFromTXT();
-
-
 
             //Validamos si los campos no estan vacios 
             if (validar())
@@ -43,29 +43,8 @@ namespace BibliotecaProject.VentanasUsers
             }
         }
 
-        private bool validar()
-        {
-            bool notEmpty = true;
 
-            if (TXTCodAdm.getTextFromTXT() == string.Empty)
-            {
-                notEmpty = false;
-                errorForm.SetError(TXTCodAdm, "No admite campos vacios");
-            }
-            if (TXTCodAlm.getTextFromTXT() == string.Empty)
-            {
-                notEmpty = false;
-                errorForm.SetError(TXTCodAlm, "No admite campos vacios");
-            }
-            if (TXTIsbn.getTextFromTXT() == string.Empty)
-            {
-                notEmpty = false;
-                errorForm.SetError(TXTIsbn, "No admite campos vacios");
-            }
-
-            return notEmpty;
-        }
-
+        //Devolver un prestamo
         private void BTNReturn_Click(object sender, EventArgs e)
         {
             if (validarRet())
@@ -99,6 +78,31 @@ namespace BibliotecaProject.VentanasUsers
             }
         }
 
+        //Validamos
+        private bool validar()
+        {
+            bool notEmpty = true;
+
+            if (TXTCodAdm.getTextFromTXT() == string.Empty)
+            {
+                notEmpty = false;
+                errorForm.SetError(TXTCodAdm, "No admite campos vacios");
+            }
+            if (TXTCodAlm.getTextFromTXT() == string.Empty)
+            {
+                notEmpty = false;
+                errorForm.SetError(TXTCodAlm, "No admite campos vacios");
+            }
+            if (TXTIsbn.getTextFromTXT() == string.Empty)
+            {
+                notEmpty = false;
+                errorForm.SetError(TXTIsbn, "No admite campos vacios");
+            }
+
+            return notEmpty;
+        }
+
+        //Validamos
         private bool validarRet()
         {
             bool notEmpty = true;

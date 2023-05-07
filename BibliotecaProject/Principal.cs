@@ -32,55 +32,79 @@ namespace BibliotecaProject
             //los ques sean admin o usuario, dinamicamente claro esta :)
             //Y seguiran el orden que tenemos aqui :)
             List<CircleButton> botonesNav = new List<CircleButton>();
+            List<Label> labelsNav = new List<Label>();
 
             botonesNav.Add(buscarLibBTN);
+            labelsNav.Add(buscadorLBL);
+
             botonesNav.Add(BTNEntrSalid);
+            labelsNav.Add(entradasLBL);
+
             botonesNav.Add(BTNPrestCub);
+            labelsNav.Add(cubiculosLBL);
+
             botonesNav.Add(BTNGenteEnBib);
+            labelsNav.Add(genteLBL);
+
             botonesNav.Add(BTNRegistros);
+            labelsNav.Add(registrosLBL);
+
             botonesNav.Add(BTNLibrosPrest);
+            labelsNav.Add(prestamosLBL);
+
             botonesNav.Add(BTNPrestamos);
+            labelsNav.Add(historialLBL);
 
             //Ocultamos todos los botones para despues mostrar unicamente los que necesitamos :)
             foreach (CircleButton elemento in botonesNav) elemento.Visible = false;
+            foreach (Label elemento in labelsNav) elemento.Visible = false;
+
+            //Contador para nuestras etiquetas
+            int cont = 0;
 
             foreach (CircleButton elemento in botonesNav)
             {
+                Label etiqueta = labelsNav[cont];
                 if (admin)
                 {
-                    ColocarBoton(elemento);
+                    ColocarBoton(elemento, etiqueta);
                 }
                 else if (elemento.Admin != true)
                 {
-                    ColocarBoton(elemento);
+                    ColocarBoton(elemento, etiqueta);
                 }
+
+                cont++;
             }
         }
 
         //Metodo para colocar botones :)
-        void ColocarBoton(CircleButton elemento)
+        void ColocarBoton(CircleButton elemento, Label etiqueta)
         {
 
             //Checamos si es el primer boton que colocamos, para otorgarle un Padding respecto al panelInfo
             //Si no, solo lo colocamos en la siguiente posicion X calculada :)
             elemento.Visible = true;
-            elemento.Size = new Size(129, 129);
-            elemento.borderRadius = 129;
+            elemento.Size = new Size(120, 120);
+            elemento.borderRadius = 50;
+            etiqueta.Visible = true;
 
             if (primeraIteracion)
             {
                 elemento.Location = new System.Drawing.Point(52, 23);
+                etiqueta.Location = new System.Drawing.Point(82, 150);
                 primeraIteracion = false;
             }
             else
             {
                 elemento.Location = new System.Drawing.Point(posXNextElement, 23);
+                etiqueta.Location = new System.Drawing.Point(posXNextElement + 30, 150);
             }
 
             int posX = elemento.Location.X;
             int size = elemento.Width;
 
-            posXNextElement = posX + size + 52;
+            posXNextElement = posX + size + 42;
         }
 
 
