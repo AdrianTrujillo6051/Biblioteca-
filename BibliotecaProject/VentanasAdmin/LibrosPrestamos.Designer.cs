@@ -122,7 +122,6 @@
             BTNReturn.Text = "   Ok";
             BTNReturn.TextImageRelation = TextImageRelation.ImageBeforeText;
             BTNReturn.UseVisualStyleBackColor = false;
-            BTNReturn.Click += BTNReturn_Click;
             // 
             // TXTRETIsbn
             // 
@@ -211,7 +210,6 @@
             BTNEnviar.Text = "   Ok";
             BTNEnviar.TextImageRelation = TextImageRelation.ImageBeforeText;
             BTNEnviar.UseVisualStyleBackColor = false;
-            BTNEnviar.Click += BTNEnviar_Click;
             // 
             // label2
             // 
@@ -390,7 +388,7 @@
             closeBTN.TabIndex = 21;
             closeBTN.Text = "X";
             closeBTN.UseVisualStyleBackColor = false;
-            closeBTN.Click += closeBTN_Click;
+            closeBTN.Click += closeBTN_Click_1;
             // 
             // LibrosPrestamos
             // 

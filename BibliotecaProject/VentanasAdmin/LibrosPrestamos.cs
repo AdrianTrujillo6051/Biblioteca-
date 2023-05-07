@@ -15,6 +15,9 @@ namespace BibliotecaProject.VentanasUsers
         public LibrosPrestamos()
         {
             InitializeComponent();
+            double altura = Screen.PrimaryScreen.Bounds.Height;
+
+            if (altura < 800) Formulario.Size = new Size(535, 391);
         }
 
 
@@ -121,7 +124,7 @@ namespace BibliotecaProject.VentanasUsers
             return notEmpty;
         }
 
-        private void closeBTN_Click(object sender, EventArgs e)
+        private void closeBTN_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
