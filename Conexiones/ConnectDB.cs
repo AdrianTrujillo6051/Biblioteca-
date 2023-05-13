@@ -9,8 +9,8 @@ namespace Conexiones
 
         public static DataSet RealizarConexion(String cmd)
         {
-            String cadena = "server=localhost;user=root;database=biblioteca;port=3306;password=admin";
-            con = new MySqlConnection(cadena);
+            String datosCon = "server=localhost;user=root;database=biblioteca;port=3306;password=admin";
+            con = new MySqlConnection(datosCon);
             con.Open();
 
             DataSet DS = new DataSet();

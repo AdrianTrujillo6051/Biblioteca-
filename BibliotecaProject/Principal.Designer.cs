@@ -103,13 +103,14 @@
             PanelLayout.Name = "PanelLayout";
             PanelLayout.Size = new Size(1130, 175);
             PanelLayout.TabIndex = 2;
+            PanelLayout.Paint += PanelLayout_Paint;
             // 
             // entradasLBL
             // 
             entradasLBL.AutoSize = true;
             entradasLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             entradasLBL.ForeColor = Color.FromArgb(200, 234, 252);
-            entradasLBL.Location = new Point(758, 111);
+            entradasLBL.Location = new Point(388, 87);
             entradasLBL.Name = "entradasLBL";
             entradasLBL.Size = new Size(54, 15);
             entradasLBL.TabIndex = 17;
@@ -120,18 +121,18 @@
             genteLBL.AutoSize = true;
             genteLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             genteLBL.ForeColor = Color.FromArgb(200, 234, 252);
-            genteLBL.Location = new Point(376, 111);
+            genteLBL.Location = new Point(6, 87);
             genteLBL.Name = "genteLBL";
-            genteLBL.Size = new Size(42, 15);
+            genteLBL.Size = new Size(69, 15);
             genteLBL.TabIndex = 16;
-            genteLBL.Text = "Gente";
+            genteLBL.Text = "Comunidad";
             // 
             // registrosLBL
             // 
             registrosLBL.AutoSize = true;
             registrosLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             registrosLBL.ForeColor = Color.FromArgb(200, 234, 252);
-            registrosLBL.Location = new Point(693, 111);
+            registrosLBL.Location = new Point(323, 87);
             registrosLBL.Name = "registrosLBL";
             registrosLBL.Size = new Size(59, 15);
             registrosLBL.TabIndex = 15;
@@ -142,7 +143,7 @@
             historialLBL.AutoSize = true;
             historialLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             historialLBL.ForeColor = Color.FromArgb(200, 234, 252);
-            historialLBL.Location = new Point(634, 111);
+            historialLBL.Location = new Point(264, 87);
             historialLBL.Name = "historialLBL";
             historialLBL.Size = new Size(53, 15);
             historialLBL.TabIndex = 14;
@@ -153,7 +154,7 @@
             buscadorLBL.AutoSize = true;
             buscadorLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             buscadorLBL.ForeColor = Color.FromArgb(200, 234, 252);
-            buscadorLBL.Location = new Point(560, 111);
+            buscadorLBL.Location = new Point(190, 87);
             buscadorLBL.Name = "buscadorLBL";
             buscadorLBL.Size = new Size(58, 15);
             buscadorLBL.TabIndex = 13;
@@ -164,7 +165,7 @@
             prestamosLBL.AutoSize = true;
             prestamosLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             prestamosLBL.ForeColor = Color.FromArgb(200, 234, 252);
-            prestamosLBL.Location = new Point(489, 111);
+            prestamosLBL.Location = new Point(119, 87);
             prestamosLBL.Name = "prestamosLBL";
             prestamosLBL.Size = new Size(65, 15);
             prestamosLBL.TabIndex = 12;
@@ -175,7 +176,7 @@
             cubiculosLBL.AutoSize = true;
             cubiculosLBL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             cubiculosLBL.ForeColor = Color.FromArgb(200, 234, 252);
-            cubiculosLBL.Location = new Point(424, 111);
+            cubiculosLBL.Location = new Point(54, 87);
             cubiculosLBL.Name = "cubiculosLBL";
             cubiculosLBL.Size = new Size(59, 15);
             cubiculosLBL.TabIndex = 11;
@@ -186,13 +187,13 @@
             buscarLibBTN.Admin = false;
             buscarLibBTN.BackColor = Color.FromArgb(200, 234, 252);
             buscarLibBTN.BackgroundImage = Properties.Resources.bookBTN;
-            buscarLibBTN.BackgroundImageLayout = ImageLayout.Stretch;
+            buscarLibBTN.BackgroundImageLayout = ImageLayout.Center;
             buscarLibBTN.borderColor = Color.Transparent;
             buscarLibBTN.borderRadius = 48;
-            buscarLibBTN.borderSize = 5;
+            buscarLibBTN.borderSize = 3;
             buscarLibBTN.FlatAppearance.BorderSize = 0;
             buscarLibBTN.FlatStyle = FlatStyle.Flat;
-            buscarLibBTN.ForeColor = Color.White;
+            buscarLibBTN.ForeColor = Color.FromArgb(200, 234, 252);
             buscarLibBTN.Location = new Point(348, 12);
             buscarLibBTN.Name = "buscarLibBTN";
             buscarLibBTN.Padding = new Padding(7);
@@ -205,14 +206,14 @@
             // 
             BTNPrestamos.Admin = false;
             BTNPrestamos.BackColor = Color.FromArgb(200, 234, 252);
-            BTNPrestamos.BackgroundImage = Properties.Resources.findBTN1;
-            BTNPrestamos.BackgroundImageLayout = ImageLayout.Stretch;
+            BTNPrestamos.BackgroundImage = Properties.Resources.findBTN;
+            BTNPrestamos.BackgroundImageLayout = ImageLayout.Center;
             BTNPrestamos.borderColor = Color.Transparent;
             BTNPrestamos.borderRadius = 48;
-            BTNPrestamos.borderSize = 5;
+            BTNPrestamos.borderSize = 3;
             BTNPrestamos.FlatAppearance.BorderSize = 0;
             BTNPrestamos.FlatStyle = FlatStyle.Flat;
-            BTNPrestamos.ForeColor = Color.White;
+            BTNPrestamos.ForeColor = Color.FromArgb(200, 234, 252);
             BTNPrestamos.Location = new Point(291, 12);
             BTNPrestamos.Name = "BTNPrestamos";
             BTNPrestamos.Size = new Size(51, 63);
@@ -225,13 +226,13 @@
             BTNLibrosPrest.Admin = true;
             BTNLibrosPrest.BackColor = Color.FromArgb(200, 234, 252);
             BTNLibrosPrest.BackgroundImage = Properties.Resources.checkBTN;
-            BTNLibrosPrest.BackgroundImageLayout = ImageLayout.Stretch;
+            BTNLibrosPrest.BackgroundImageLayout = ImageLayout.Center;
             BTNLibrosPrest.borderColor = Color.Transparent;
             BTNLibrosPrest.borderRadius = 48;
-            BTNLibrosPrest.borderSize = 5;
+            BTNLibrosPrest.borderSize = 3;
             BTNLibrosPrest.FlatAppearance.BorderSize = 0;
             BTNLibrosPrest.FlatStyle = FlatStyle.Flat;
-            BTNLibrosPrest.ForeColor = Color.White;
+            BTNLibrosPrest.ForeColor = Color.FromArgb(200, 234, 252);
             BTNLibrosPrest.Location = new Point(234, 12);
             BTNLibrosPrest.Name = "BTNLibrosPrest";
             BTNLibrosPrest.Size = new Size(51, 63);
@@ -244,13 +245,13 @@
             BTNEntrSalid.Admin = false;
             BTNEntrSalid.BackColor = Color.FromArgb(200, 234, 252);
             BTNEntrSalid.BackgroundImage = Properties.Resources.homeBTN;
-            BTNEntrSalid.BackgroundImageLayout = ImageLayout.Stretch;
+            BTNEntrSalid.BackgroundImageLayout = ImageLayout.Center;
             BTNEntrSalid.borderColor = Color.Transparent;
             BTNEntrSalid.borderRadius = 48;
-            BTNEntrSalid.borderSize = 5;
+            BTNEntrSalid.borderSize = 3;
             BTNEntrSalid.FlatAppearance.BorderSize = 0;
             BTNEntrSalid.FlatStyle = FlatStyle.Flat;
-            BTNEntrSalid.ForeColor = Color.White;
+            BTNEntrSalid.ForeColor = Color.FromArgb(200, 234, 252);
             BTNEntrSalid.Location = new Point(177, 12);
             BTNEntrSalid.Name = "BTNEntrSalid";
             BTNEntrSalid.Size = new Size(51, 63);
@@ -262,13 +263,13 @@
             BTNGenteEnBib.Admin = true;
             BTNGenteEnBib.BackColor = Color.FromArgb(200, 234, 252);
             BTNGenteEnBib.BackgroundImage = Properties.Resources.communityBTN;
-            BTNGenteEnBib.BackgroundImageLayout = ImageLayout.Stretch;
+            BTNGenteEnBib.BackgroundImageLayout = ImageLayout.Center;
             BTNGenteEnBib.borderColor = Color.Transparent;
             BTNGenteEnBib.borderRadius = 48;
-            BTNGenteEnBib.borderSize = 5;
+            BTNGenteEnBib.borderSize = 3;
             BTNGenteEnBib.FlatAppearance.BorderSize = 0;
             BTNGenteEnBib.FlatStyle = FlatStyle.Flat;
-            BTNGenteEnBib.ForeColor = Color.White;
+            BTNGenteEnBib.ForeColor = Color.FromArgb(200, 234, 252);
             BTNGenteEnBib.Location = new Point(120, 12);
             BTNGenteEnBib.Name = "BTNGenteEnBib";
             BTNGenteEnBib.Size = new Size(51, 63);
@@ -280,13 +281,13 @@
             BTNPrestCub.Admin = false;
             BTNPrestCub.BackColor = Color.FromArgb(200, 234, 252);
             BTNPrestCub.BackgroundImage = Properties.Resources.cubicBTN;
-            BTNPrestCub.BackgroundImageLayout = ImageLayout.Stretch;
+            BTNPrestCub.BackgroundImageLayout = ImageLayout.Center;
             BTNPrestCub.borderColor = Color.Transparent;
             BTNPrestCub.borderRadius = 48;
-            BTNPrestCub.borderSize = 5;
+            BTNPrestCub.borderSize = 3;
             BTNPrestCub.FlatAppearance.BorderSize = 0;
             BTNPrestCub.FlatStyle = FlatStyle.Flat;
-            BTNPrestCub.ForeColor = Color.White;
+            BTNPrestCub.ForeColor = Color.FromArgb(200, 234, 252);
             BTNPrestCub.Location = new Point(63, 12);
             BTNPrestCub.Name = "BTNPrestCub";
             BTNPrestCub.Size = new Size(51, 63);
@@ -299,13 +300,13 @@
             BTNRegistros.Admin = true;
             BTNRegistros.BackColor = Color.FromArgb(200, 234, 252);
             BTNRegistros.BackgroundImage = Properties.Resources.peopleBTN;
-            BTNRegistros.BackgroundImageLayout = ImageLayout.Stretch;
+            BTNRegistros.BackgroundImageLayout = ImageLayout.Center;
             BTNRegistros.borderColor = Color.Transparent;
             BTNRegistros.borderRadius = 48;
-            BTNRegistros.borderSize = 5;
+            BTNRegistros.borderSize = 3;
             BTNRegistros.FlatAppearance.BorderSize = 0;
             BTNRegistros.FlatStyle = FlatStyle.Flat;
-            BTNRegistros.ForeColor = Color.White;
+            BTNRegistros.ForeColor = Color.FromArgb(200, 234, 252);
             BTNRegistros.Location = new Point(6, 12);
             BTNRegistros.Name = "BTNRegistros";
             BTNRegistros.Padding = new Padding(7);

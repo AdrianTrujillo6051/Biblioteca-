@@ -22,9 +22,9 @@ namespace BibliotecaProject
         public ReposoForm()
         {
             InitializeComponent();
+
             //Ajustamos el tamaño dependiendo de la resolucion
             double altura = Screen.PrimaryScreen.Bounds.Height;
-
             if (altura < 800)
             {
                 frontPageImg.Size = new Size(285, 376);
@@ -34,6 +34,7 @@ namespace BibliotecaProject
                 lblDescrrpcion.Location = new System.Drawing.Point(lblDescrrpcion.Location.X - 170, lblDescrrpcion.Location.Y);
                 lblTitulo.Location = new System.Drawing.Point(lblTitulo.Location.X - 170, lblTitulo.Location.Y);
             }
+
 
             //NOTA: Si quieren añadir libros deben de cargar primero una imagen a los recursos locales del proyecto, despues crear un objeto como los de abajo con la estructura:
             //* Imagen * Titulo * Autor * Sinopsis
@@ -48,6 +49,8 @@ namespace BibliotecaProject
             libros.Add(new librosGaleria(Properties.Resources.book2, "Cien años de soledad", "Gabriel García Márquez", "Entre la boda de José Arcadio Buendía con Amelia Iguarán hasta la maldición de Aureliano Babilonia transcurre todo un siglo. Cien años de soledad para una estirpe única, fantástica, capaz de fundar una ciudad tan especial como Macondo y de engendrar niños con cola de cerdo. En medio, una larga docena de personajes dejarán su impronta a las generaciones venideras, que tendrán que lidiar con un mundo tan complejo como sencillo."));
 
             librosNum = libros.Count;
+
+            llenarInfo(0);
         }
 
         private void reloj_Tick(object sender, EventArgs e)
@@ -55,16 +58,22 @@ namespace BibliotecaProject
             //Por cada click (15 segundos) seteamos los datos a los siguientes datos del libro :)
             if (librosCont < librosNum)
             {
-                frontPageImg.BackgroundImage = libros[librosCont].getFoto();
-                frontPageImg.BackgroundImageLayout = ImageLayout.Stretch;
-                lblAutor.Text = libros[librosCont].getAutor();
-                lblTitulo.Text = libros[librosCont].getTitulo();
-                lblDescrrpcion.Text = libros[librosCont].getDescripcion();
-
+                llenarInfo(librosCont);
                 librosCont++;
 
             }
             else librosCont = 0;
+        }
+
+
+        void llenarInfo(int librosCont)
+        {
+
+            frontPageImg.BackgroundImage = libros[librosCont].getFoto();
+            frontPageImg.BackgroundImageLayout = ImageLayout.Stretch;
+            lblAutor.Text = libros[librosCont].getAutor();
+            lblTitulo.Text = libros[librosCont].getTitulo();
+            lblDescrrpcion.Text = libros[librosCont].getDescripcion();
         }
 
 

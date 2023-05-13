@@ -22,7 +22,7 @@ namespace BibliotecaProject
 
             //Prueba para implementar admin or user
             Boolean admin = true;
-            UserLBL.Text = "Bienvenido: Alfredo";
+            UserLBL.Text = "Bienvenido: Mario";
 
             //Cargamos el chatBot o alguna otra mamada:)
             ReposoForm form = new ReposoForm();
@@ -86,7 +86,7 @@ namespace BibliotecaProject
             //Si no, solo lo colocamos en la siguiente posicion X calculada :)
             elemento.Visible = true;
             elemento.Size = new Size(120, 120);
-            elemento.borderRadius = 50;
+            elemento.borderRadius = 120;
             etiqueta.Visible = true;
 
             if (primeraIteracion)
@@ -150,6 +150,11 @@ namespace BibliotecaProject
         {
             BuscadorLibros form = new BuscadorLibros();
             utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
+        }
+
+        private void PanelLayout_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         //BOTONES CODIGO DE REDIRECCIONAMIENTO----------------------------------------------------------------------------------------------------------------------------------
