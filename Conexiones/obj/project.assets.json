@@ -52,23 +52,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SrPap\\.nuget\\packages\\": {},
+    "C:\\Users\\MIPC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT\\Biblioteca-\\Conexiones\\Conexiones.csproj",
+      "projectUniqueName": "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\Conexiones\\Conexiones.csproj",
       "projectName": "Conexiones",
-      "projectPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT\\Biblioteca-\\Conexiones\\Conexiones.csproj",
-      "packagesPath": "C:\\Users\\SrPap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT\\Biblioteca-\\Conexiones\\obj\\",
+      "projectPath": "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\Conexiones\\Conexiones.csproj",
+      "packagesPath": "C:\\Users\\MIPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\Conexiones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SrPap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MIPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -116,7 +116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

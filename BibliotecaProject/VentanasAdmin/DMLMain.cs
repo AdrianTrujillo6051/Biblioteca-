@@ -102,12 +102,14 @@ namespace BibliotecaProject.VentanasAdmin
 
         private void LibrosDel_Click(object sender, EventArgs e)
         {
-
+            DMLEliLibros form = new DMLEliLibros();
+            formActivo = utilGraficos.openForm(form, formActivo, panelSubVentanas);
         }
 
         private void CubiculosDel_Click(object sender, EventArgs e)
         {
-
+            DMLEliCubi form= new DMLEliCubi();
+            formActivo = utilGraficos.openForm(form, formActivo, panelSubVentanas);
         }
 
         private void AlumnDel_Click(object sender, EventArgs e)
