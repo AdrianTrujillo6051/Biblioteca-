@@ -9,18 +9,26 @@ namespace Conexiones
 
         public static DataSet RealizarConexion(String cmd)
         {
-            String datosCon = "server=localhost;user=root;database=biblioteca;port=3306;password=admin";
-            con = new MySqlConnection(datosCon);
-            con.Open();
+            DataSet DS = null;
+            try 
+            {
+                String datosCon = "server=localhost;user=root;database=biblioteca;port=3306;password=admin";
+                con = new MySqlConnection(datosCon);
+                con.Open();
 
-            DataSet DS = new DataSet();
-            MySqlDataAdapter DP = new MySqlDataAdapter(cmd, con);
+                DS = new DataSet();
+                MySqlDataAdapter DP = new MySqlDataAdapter(cmd, con);
 
-            DP.Fill(DS);
+                DP.Fill(DS);
 
-            con.Close();
+                con.Close();
+
+  
+            }
+            catch {}
 
             return DS;
+
         }
     }
 }

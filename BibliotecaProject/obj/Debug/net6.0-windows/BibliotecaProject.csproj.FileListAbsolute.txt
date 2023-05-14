@@ -89,3 +89,8 @@ C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.pdb
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.genruntimeconfig.cache
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\ref\BibliotecaProject.dll
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLAdministrativos.resources
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLCubi.resources
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliAd.resources
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliAlum.resources
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLLibros.resources

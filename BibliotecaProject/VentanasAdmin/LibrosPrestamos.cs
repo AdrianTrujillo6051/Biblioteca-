@@ -22,7 +22,7 @@ namespace BibliotecaProject.VentanasUsers
 
 
         //Hacer un prestamo
-        private void BTNEnviar_Click(object sender, EventArgs e)
+        private void BTNEnviar_Click_1(object sender, EventArgs e)
         {
             string fecha = "null";
             if (TXTFecha.getTextFromTXT() != string.Empty) fecha = TXTFecha.getTextFromTXT();
@@ -48,7 +48,7 @@ namespace BibliotecaProject.VentanasUsers
 
 
         //Devolver un prestamo
-        private void BTNReturn_Click(object sender, EventArgs e)
+        private void BTNReturn_Click_1(object sender, EventArgs e)
         {
             if (validarRet())
             {
@@ -128,5 +128,6 @@ namespace BibliotecaProject.VentanasUsers
         {
             this.Close();
         }
+
     }
 }

@@ -122,6 +122,7 @@
             BTNReturn.Text = "   Ok";
             BTNReturn.TextImageRelation = TextImageRelation.ImageBeforeText;
             BTNReturn.UseVisualStyleBackColor = false;
+            BTNReturn.Click += BTNReturn_Click_1;
             // 
             // TXTRETIsbn
             // 
@@ -210,6 +211,7 @@
             BTNEnviar.Text = "   Ok";
             BTNEnviar.TextImageRelation = TextImageRelation.ImageBeforeText;
             BTNEnviar.UseVisualStyleBackColor = false;
+            BTNEnviar.Click += BTNEnviar_Click_1;
             // 
             // label2
             // 

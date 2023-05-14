@@ -1,28 +1,72 @@
 using ObjPersonalizados;
+
 using BibliotecaProject.VentanasAdmin;
 using BibliotecaProject.VentanasUsers;
 using BibliotecaProject.Funciones;
+using System.Data;
 
 namespace BibliotecaProject
 {
     public partial class Principal : Form
     {
+
+
         //Variables usadas en la configuracion de botones admin or user
         int posXNextElement = 0;
         Boolean primeraIteracion = true;
 
         //Variable para el control de formularios
         UtilGraficos utilGraficos = new UtilGraficos();
-        Form formActivo = null;
+        public Form formActivo = null;
 
         public Principal()
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
 
-            //Prueba para implementar admin or user
+
+
+
             Boolean admin = true;
-            UserLBL.Text = "Bienvenido: Mario";
+
+            try 
+            {
+                //Hacemos una consulta del ultimo Login a la BD para setear si es Admin o Alumno
+                DataSet datos = Conexiones.ConnectDB.RealizarConexion("SELECT * FROM usuarios WHERE id = (SELECT id FROM logoutfuera);");
+                string isAdminQuerry = datos.Tables[0].Rows[0]["esAdmin"].ToString();
+                string util;
+
+                if (isAdminQuerry == "1")
+                {
+                    //Obtenemos nombre y seteamos nivel de privilegio :)
+                    admin = true;
+                    util = datos.Tables[0].Rows[0]["codigoAdmin"].ToString();
+                    util = string.Format("SELECT nombre_admin FROM administrativos WHERE codigo_admin = {0};", util);
+                    datos = Conexiones.ConnectDB.RealizarConexion(util);
+                    util = datos.Tables[0].Rows[0]["nombre_admin"].ToString();
+
+                    UserLBL.Text = string.Format("Bienvenido: {0}", util);
+                }
+                else
+                {
+                    //Obtenemos nombre y seteamos nvel de privilegio
+                    admin = false;
+                    util = datos.Tables[0].Rows[0]["codigoAlumm"].ToString();
+                    util = string.Format("SELECT nombre FROM alumnos WHERE codigo = {0};", util);
+                    datos = Conexiones.ConnectDB.RealizarConexion(util);
+                    util = datos.Tables[0].Rows[0]["nombre_admin"].ToString();
+
+                    UserLBL.Text = string.Format("Bienvenido: {0}", util);
+                }
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show("Ups... " + ex);
+            }
+
+
+
+            
 
             //Cargamos el chatBot o alguna otra mamada:)
             ReposoForm form = new ReposoForm();
@@ -122,7 +166,7 @@ namespace BibliotecaProject
         private void BTNRegistros_Click(object sender, EventArgs e)
         {
             DMLMain form = new DMLMain();
-            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
+            formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
 
@@ -130,26 +174,26 @@ namespace BibliotecaProject
         private void BTNLibrosPrest_Click(object sender, EventArgs e)
         {
             LibrosPrestamos form = new LibrosPrestamos();
-            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
+            formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
         //Prestamos de cubiculos :USER
         private void BTNPrestCub_Click(object sender, EventArgs e)
         {
             Cubiculos form = new Cubiculos();
-            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
+            formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
         private void BTNPrestamos_Click(object sender, EventArgs e)
         {
             Prestamos form = new Prestamos();
-            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
+            formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
         private void buscarLibBTN_Click(object sender, EventArgs e)
         {
             BuscadorLibros form = new BuscadorLibros();
-            utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
+            formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
         private void PanelLayout_Paint(object sender, PaintEventArgs e)

@@ -28,127 +28,243 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SaveAlBtn = new ObjPersonalizados.ButtonDML();
-            label1 = new Label();
-            textBoxdml1 = new ObjPersonalizados.TextBoxDML();
-            label2 = new Label();
-            textBoxdml2 = new ObjPersonalizados.TextBoxDML();
-            label3 = new Label();
-            textBoxdml3 = new ObjPersonalizados.TextBoxDML();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.label4 = new System.Windows.Forms.Label();
+            this.correoAlumnoTXT = new ObjPersonalizados.TextBoxDML();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.NSSAlumnoTXT = new ObjPersonalizados.TextBoxDML();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cumAlumnoTXT = new ObjPersonalizados.TextBoxDML();
+            this.label2 = new System.Windows.Forms.Label();
+            this.nombreAlumnoTXT = new ObjPersonalizados.TextBoxDML();
+            this.SaveAlBtn = new ObjPersonalizados.ButtonDML();
+            this.label1 = new System.Windows.Forms.Label();
+            this.codigoAlumnoTXT = new ObjPersonalizados.TextBoxDML();
+            this.telefonoAlumnoTXT = new ObjPersonalizados.TextBoxDML();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.errorPA = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorPA)).BeginInit();
+            this.SuspendLayout();
             // 
-            // SaveAlBtn
+            // label4
             // 
-            SaveAlBtn.BackColor = Color.FromArgb(106, 110, 121);
-            SaveAlBtn.FlatAppearance.BorderSize = 0;
-            SaveAlBtn.FlatStyle = FlatStyle.Flat;
-            SaveAlBtn.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            SaveAlBtn.ForeColor = Color.White;
-            SaveAlBtn.Image = Properties.Resources.yes;
-            SaveAlBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            SaveAlBtn.Location = new Point(270, 257);
-            SaveAlBtn.Name = "SaveAlBtn";
-            SaveAlBtn.Size = new Size(150, 40);
-            SaveAlBtn.TabIndex = 5;
-            SaveAlBtn.Text = "     Guardar";
-            SaveAlBtn.UseVisualStyleBackColor = false;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(78, 256);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(227, 32);
+            this.label4.TabIndex = 50;
+            this.label4.Text = "Correo Institucional:\r\n";
             // 
-            // label1
+            // correoAlumnoTXT
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(68, 47);
-            label1.Name = "label1";
-            label1.Size = new Size(96, 32);
-            label1.TabIndex = 4;
-            label1.Text = "Código:";
+            this.correoAlumnoTXT.BackColor = System.Drawing.Color.Transparent;
+            this.correoAlumnoTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))));
+            this.correoAlumnoTXT.Location = new System.Drawing.Point(311, 252);
+            this.correoAlumnoTXT.Name = "correoAlumnoTXT";
+            this.correoAlumnoTXT.Padding = new System.Windows.Forms.Padding(7);
+            this.correoAlumnoTXT.passCaracter = false;
+            this.correoAlumnoTXT.Size = new System.Drawing.Size(271, 36);
+            this.correoAlumnoTXT.soloLetras = false;
+            this.correoAlumnoTXT.soloNumeros = false;
+            this.correoAlumnoTXT.TabIndex = 49;
             // 
-            // textBoxdml1
+            // label5
             // 
-            textBoxdml1.BackColor = Color.Transparent;
-            textBoxdml1.ForeColor = Color.FromArgb(26, 30, 41);
-            textBoxdml1.Location = new Point(170, 43);
-            textBoxdml1.Name = "textBoxdml1";
-            textBoxdml1.Padding = new Padding(7);
-            textBoxdml1.passCaracter = false;
-            textBoxdml1.Size = new Size(250, 36);
-            textBoxdml1.soloLetras = false;
-            textBoxdml1.soloNumeros = true;
-            textBoxdml1.TabIndex = 3;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(193, 210);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(112, 32);
+            this.label5.TabIndex = 48;
+            this.label5.Text = "Telefono:";
             // 
-            // label2
+            // label6
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(57, 89);
-            label2.Name = "label2";
-            label2.Size = new Size(107, 32);
-            label2.TabIndex = 7;
-            label2.Text = "Nombre:";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(242, 167);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 32);
+            this.label6.TabIndex = 46;
+            this.label6.Text = "NSS:";
             // 
-            // textBoxdml2
+            // NSSAlumnoTXT
             // 
-            textBoxdml2.BackColor = Color.Transparent;
-            textBoxdml2.ForeColor = Color.FromArgb(26, 30, 41);
-            textBoxdml2.Location = new Point(170, 85);
-            textBoxdml2.Name = "textBoxdml2";
-            textBoxdml2.Padding = new Padding(7);
-            textBoxdml2.passCaracter = false;
-            textBoxdml2.Size = new Size(250, 36);
-            textBoxdml2.soloLetras = true;
-            textBoxdml2.soloNumeros = false;
-            textBoxdml2.TabIndex = 6;
+            this.NSSAlumnoTXT.BackColor = System.Drawing.Color.Transparent;
+            this.NSSAlumnoTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))));
+            this.NSSAlumnoTXT.Location = new System.Drawing.Point(311, 163);
+            this.NSSAlumnoTXT.Name = "NSSAlumnoTXT";
+            this.NSSAlumnoTXT.Padding = new System.Windows.Forms.Padding(7);
+            this.NSSAlumnoTXT.passCaracter = false;
+            this.NSSAlumnoTXT.Size = new System.Drawing.Size(271, 36);
+            this.NSSAlumnoTXT.soloLetras = false;
+            this.NSSAlumnoTXT.soloNumeros = true;
+            this.NSSAlumnoTXT.TabIndex = 45;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(12, 131);
-            label3.Name = "label3";
-            label3.Size = new Size(152, 32);
-            label3.TabIndex = 9;
-            label3.Text = "Cumpleaños:\r\n";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(153, 125);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(152, 32);
+            this.label3.TabIndex = 41;
+            this.label3.Text = "Cumpleaños:";
             // 
-            // textBoxdml3
+            // cumAlumnoTXT
             // 
-            textBoxdml3.BackColor = Color.Transparent;
-            textBoxdml3.ForeColor = Color.FromArgb(26, 30, 41);
-            textBoxdml3.Location = new Point(170, 127);
-            textBoxdml3.Name = "textBoxdml3";
-            textBoxdml3.Padding = new Padding(7);
-            textBoxdml3.passCaracter = false;
-            textBoxdml3.Size = new Size(250, 36);
-            textBoxdml3.soloLetras = false;
-            textBoxdml3.soloNumeros = false;
-            textBoxdml3.TabIndex = 8;
+            this.cumAlumnoTXT.BackColor = System.Drawing.Color.Transparent;
+            this.cumAlumnoTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))));
+            this.cumAlumnoTXT.Location = new System.Drawing.Point(311, 121);
+            this.cumAlumnoTXT.Name = "cumAlumnoTXT";
+            this.cumAlumnoTXT.Padding = new System.Windows.Forms.Padding(7);
+            this.cumAlumnoTXT.passCaracter = false;
+            this.cumAlumnoTXT.Size = new System.Drawing.Size(271, 36);
+            this.cumAlumnoTXT.soloLetras = false;
+            this.cumAlumnoTXT.soloNumeros = false;
+            this.cumAlumnoTXT.TabIndex = 40;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(198, 79);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(107, 32);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Nombre:";
+            // 
+            // nombreAlumnoTXT
+            // 
+            this.nombreAlumnoTXT.BackColor = System.Drawing.Color.Transparent;
+            this.nombreAlumnoTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))));
+            this.nombreAlumnoTXT.Location = new System.Drawing.Point(311, 79);
+            this.nombreAlumnoTXT.Name = "nombreAlumnoTXT";
+            this.nombreAlumnoTXT.Padding = new System.Windows.Forms.Padding(7);
+            this.nombreAlumnoTXT.passCaracter = false;
+            this.nombreAlumnoTXT.Size = new System.Drawing.Size(271, 36);
+            this.nombreAlumnoTXT.soloLetras = true;
+            this.nombreAlumnoTXT.soloNumeros = false;
+            this.nombreAlumnoTXT.TabIndex = 38;
+            // 
+            // SaveAlBtn
+            // 
+            this.SaveAlBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(110)))), ((int)(((byte)(121)))));
+            this.SaveAlBtn.FlatAppearance.BorderSize = 0;
+            this.SaveAlBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SaveAlBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SaveAlBtn.ForeColor = System.Drawing.Color.White;
+            this.SaveAlBtn.Image = global::BibliotecaProject.Properties.Resources.yes;
+            this.SaveAlBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SaveAlBtn.Location = new System.Drawing.Point(329, 333);
+            this.SaveAlBtn.Name = "SaveAlBtn";
+            this.SaveAlBtn.Size = new System.Drawing.Size(150, 40);
+            this.SaveAlBtn.TabIndex = 37;
+            this.SaveAlBtn.Text = "     Guardar";
+            this.SaveAlBtn.UseVisualStyleBackColor = false;
+            this.SaveAlBtn.Click += new System.EventHandler(this.SaveAlBtn_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(209, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 32);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Código:";
+            // 
+            // codigoAlumnoTXT
+            // 
+            this.codigoAlumnoTXT.BackColor = System.Drawing.Color.Transparent;
+            this.codigoAlumnoTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))));
+            this.codigoAlumnoTXT.Location = new System.Drawing.Point(311, 37);
+            this.codigoAlumnoTXT.Name = "codigoAlumnoTXT";
+            this.codigoAlumnoTXT.Padding = new System.Windows.Forms.Padding(7);
+            this.codigoAlumnoTXT.passCaracter = false;
+            this.codigoAlumnoTXT.Size = new System.Drawing.Size(271, 36);
+            this.codigoAlumnoTXT.soloLetras = false;
+            this.codigoAlumnoTXT.soloNumeros = true;
+            this.codigoAlumnoTXT.TabIndex = 35;
+            // 
+            // telefonoAlumnoTXT
+            // 
+            this.telefonoAlumnoTXT.BackColor = System.Drawing.Color.Transparent;
+            this.telefonoAlumnoTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))));
+            this.telefonoAlumnoTXT.Location = new System.Drawing.Point(311, 210);
+            this.telefonoAlumnoTXT.Name = "telefonoAlumnoTXT";
+            this.telefonoAlumnoTXT.Padding = new System.Windows.Forms.Padding(7);
+            this.telefonoAlumnoTXT.passCaracter = false;
+            this.telefonoAlumnoTXT.Size = new System.Drawing.Size(271, 36);
+            this.telefonoAlumnoTXT.soloLetras = false;
+            this.telefonoAlumnoTXT.soloNumeros = false;
+            this.telefonoAlumnoTXT.TabIndex = 51;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::BibliotecaProject.Properties.Resources.alumn;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(652, 79);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(205, 193);
+            this.pictureBox1.TabIndex = 52;
+            this.pictureBox1.TabStop = false;
+            // 
+            // errorPA
+            // 
+            this.errorPA.ContainerControl = this;
             // 
             // DMLAlumn
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Control;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label3);
-            Controls.Add(textBoxdml3);
-            Controls.Add(label2);
-            Controls.Add(textBoxdml2);
-            Controls.Add(SaveAlBtn);
-            Controls.Add(label1);
-            Controls.Add(textBoxdml1);
-            Name = "DMLAlumn";
-            Text = "DMLAlumn";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(916, 422);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.telefonoAlumnoTXT);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.correoAlumnoTXT);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.NSSAlumnoTXT);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.cumAlumnoTXT);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.nombreAlumnoTXT);
+            this.Controls.Add(this.SaveAlBtn);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.codigoAlumnoTXT);
+            this.Name = "DMLAlumn";
+            this.Text = "DMLAlumn";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorPA)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
-
+        private Label label4;
+        private ObjPersonalizados.TextBoxDML correoAlumnoTXT;
+        private Label label5;
+        private Label label6;
+        private ObjPersonalizados.TextBoxDML NSSAlumnoTXT;
+        private Label label3;
+        private ObjPersonalizados.TextBoxDML cumAlumnoTXT;
+        private Label label2;
+        private ObjPersonalizados.TextBoxDML nombreAlumnoTXT;
         private ObjPersonalizados.ButtonDML SaveAlBtn;
         private Label label1;
-        private ObjPersonalizados.TextBoxDML textBoxdml1;
-        private Label label2;
-        private ObjPersonalizados.TextBoxDML textBoxdml2;
-        private Label label3;
-        private ObjPersonalizados.TextBoxDML textBoxdml3;
+        private ObjPersonalizados.TextBoxDML codigoAlumnoTXT;
+        private ObjPersonalizados.TextBoxDML telefonoAlumnoTXT;
+        private PictureBox pictureBox1;
+        private ErrorProvider Validacion;
+        private ErrorProvider validar;
+        private ErrorProvider valialum;
+        private ErrorProvider errorProvider1;
+        private ErrorProvider errorPA;
     }
 }

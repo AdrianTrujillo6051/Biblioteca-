@@ -9,9 +9,10 @@ namespace BibliotecaProject.Funciones
     internal class UtilGraficos
     {
         //Recibimos tres parametros, uno sera el formulario a abrir, otro el formulario que esta activo y el ultimo el panel donde lo debemos colocar
-        public void openForm(Form formularioAbrir, Form formularioActivo, Panel panelFormularios) { 
+        public Form openForm(Form formularioAbrir, Form formularioActivo, Panel panelFormularios) {
             //Cerramos el formulario activo si es que existe ;)
-            if(formularioActivo != null) formularioActivo.Close();
+            if (formularioActivo != null) formularioActivo.Close();
+
 
             //Conifguramos y mostramos el formulario
             formularioActivo = formularioAbrir;
@@ -22,6 +23,8 @@ namespace BibliotecaProject.Funciones
             panelFormularios.Tag = formularioAbrir;
             formularioAbrir.BringToFront();
             formularioAbrir.Show();
+
+            return formularioActivo;
         }
     }
 }
