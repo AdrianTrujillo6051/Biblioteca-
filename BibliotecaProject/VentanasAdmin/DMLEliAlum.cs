@@ -19,22 +19,24 @@ namespace BibliotecaProject.VentanasAdmin
 
         private void Buscarbtn_Click(object sender, EventArgs e)
         {
-           
+
 
             try
             {
                 string comandoSelect = string.Format("SELECT codigo, nombre, correoIns FROM alumnos WHERE codigo = {0}; ", CodigoAlumTXT.getTextFromTXT());
                 DataSet ds = Conexiones.ConnectDB.RealizarConexion(comandoSelect);
 
-                
-                
-                    CodigAlumTXT.Text = ds.Tables[0].Rows[0]["codigo"].ToString();
-                    NameAlumTXT.Text = ds.Tables[0].Rows[0]["nombre"].ToString();
-                    EmailAlumTXT.Text = ds.Tables[0].Rows[0]["correoIns"].ToString();
 
-                
+
+                CodigAlumTXT.Text = ds.Tables[0].Rows[0]["codigo"].ToString();
+                NameAlumTXT.Text = ds.Tables[0].Rows[0]["nombre"].ToString();
+                EmailAlumTXT.Text = ds.Tables[0].Rows[0]["correoIns"].ToString();
+
+
             }
-            catch (Exception ex) { MessageBox.Show("Error inesperado, datos invalidos o no existen");
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error inesperado, datos invalidos o no existen");
                 CodigoAlumTXT.Text = null;
                 CodigoAlumTXT.Text = null;
                 NameAlumTXT.Text = null;
@@ -54,16 +56,23 @@ namespace BibliotecaProject.VentanasAdmin
                 CodigAlumTXT.Text = null;
                 NameAlumTXT.Text = null;
                 EmailAlumTXT.Text = null;
-                
+
                 MessageBox.Show("Se ha eliminado correctamente");
 
             }
-            catch (Exception ex) { MessageBox.Show("Error inesperado, no se puede eliminar, datos invalidos");
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error inesperado, no se puede eliminar, datos invalidos");
                 CodigoAlumTXT.Text = null;
                 CodigoAlumTXT.Text = null;
                 NameAlumTXT.Text = null;
                 EmailAlumTXT.Text = null;
             }
+
+        }
+
+        private void CodigoAlumTXT_Load(object sender, EventArgs e)
+        {
 
         }
     }

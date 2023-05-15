@@ -34,6 +34,18 @@
     <Compile Update="VentanasAdmin\DMLMain.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VentanasAdmin\DMLModiAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VentanasAdmin\DMLModiAlum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VentanasAdmin\DMLModiCubi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VentanasAdmin\DMLModiLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="VentanasUsers\BuscadorLibros.cs">
       <SubType>Form</SubType>
     </Compile>

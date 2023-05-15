@@ -76,21 +76,28 @@ namespace BibliotecaProject.VentanasAdmin
         //----------    UPDATE DATA BUTTONS ---------------------------------------------------------------------
         private void AdminUpd_Click(object sender, EventArgs e)
         {
+            DMLModiAdmin form = new DMLModiAdmin();
+            formActivo = utilGraficos.openForm(form, formActivo, panelSubVentanas);
 
         }
 
         private void LibrosUpd_Click(object sender, EventArgs e)
         {
-
+            DMLModiLibro form = new DMLModiLibro();
+            formActivo = utilGraficos.openForm(form, formActivo, panelSubVentanas);
         }
 
         private void CubiculosUpd_Click(object sender, EventArgs e)
         {
+            DMLModiCubi form = new DMLModiCubi();
+            formActivo = utilGraficos.openForm(form, formActivo, panelSubVentanas);
 
         }
 
         private void AlumnosUpd_Click(object sender, EventArgs e)
         {
+            DMLModiAlum form = new DMLModiAlum();
+            formActivo = utilGraficos.openForm(form, formActivo, panelSubVentanas);
 
         }
         //----------    DELETE DATA BUTTONS ---------------------------------------------------------------------

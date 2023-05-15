@@ -134,6 +134,7 @@
             cbDispo.Name = "cbDispo";
             cbDispo.Size = new Size(235, 33);
             cbDispo.TabIndex = 21;
+            cbDispo.SelectedIndexChanged += cbDispo_SelectedIndexChanged;
             // 
             // errorFormulario
             // 

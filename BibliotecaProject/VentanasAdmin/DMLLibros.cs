@@ -55,11 +55,11 @@ namespace BibliotecaProject.VentanasAdmin
                 notEmpty = false;
                 errorFormulario.SetError(txtEditorial, "No admite campos vacios");
             }
-            if (txtFechaPubli.getTextFromTXT() == string.Empty)
+            /*if (txtFechaPubli.getTextFromTXT() == string.Empty)
             {
                 notEmpty = false;
                 errorFormulario.SetError(txtFechaPubli, "No admite campos vacios");
-            }
+            }*/
             if (txtCanPres.getTextFromTXT() == string.Empty)
             {
                 notEmpty = false;
@@ -94,6 +94,10 @@ namespace BibliotecaProject.VentanasAdmin
         {
             if (validar())
             {
+                DateTime fechax = datexd.Value;
+                string formato = "yyyy/MM/dd";
+                lblFecha.Text = fechax.ToString(formato);
+
                 string isbn; string fecha;
                 string titulo; string genero;
                 string autor; string disponibilidad;
@@ -105,7 +109,7 @@ namespace BibliotecaProject.VentanasAdmin
                 autor = txtAutor.getTextFromTXT();
                 editorial = txtEditorial.getTextFromTXT();
                 idiomas = cbIdiomas.Text;
-                fecha = txtFechaPubli.getTextFromTXT();
+                //fecha = txtFechaPubli.getTextFromTXT();
                 genero = cbGenero.Text;
                 disponibilidad = cbDispoL.Text;
                 cantidad = txtCanPres.getTextFromTXT();
@@ -126,7 +130,7 @@ namespace BibliotecaProject.VentanasAdmin
 
                 try
                 {
-                    String guardarL = "insert into libros  (isbn ,titulo, autor, editorial, fechaPubli, genero, disponibleBi, cantidadPres, idiomas, paginas) values('" + isbn + "','" + titulo + "', '" + autor + "', '" + editorial + "','" + fecha + "', '" + genero + "', '" + dispo + "', '" + cantidad + "','" + idiomas + "', '" + paginas + "')";
+                    String guardarL = "insert into libros  (isbn ,titulo, autor, editorial, fechaPubli, genero, disponibleBi, cantidadPres, idiomas, paginas) values('" + isbn + "','" + titulo + "', '" + autor + "', '" + editorial + "','" + lblFecha.Text + "', '" + genero + "', '" + dispo + "', '" + cantidad + "','" + idiomas + "', '" + paginas + "')";
                     Conexiones.ConnectDB.RealizarConexion(guardarL);
                     MessageBox.Show("Registro guardado correctamente");
 
@@ -135,12 +139,13 @@ namespace BibliotecaProject.VentanasAdmin
                     txtTitulo.setTextFromTXT(" ");
                     txtAutor.setTextFromTXT(" ");
                     txtEditorial.setTextFromTXT(" ");
-                    txtFechaPubli.setTextFromTXT(" ");
+                    //txtFechaPubli.setTextFromTXT(" ");
                     txtCanPres.setTextFromTXT(" ");
                     txtPaginas.setTextFromTXT(" ");
                     cbDispoL.Text = " ";
                     cbGenero.Text = " ";
                     cbIdiomas.Text = " ";
+                    datexd.Value = DateTime.Now;
 
 
                 }
@@ -153,6 +158,16 @@ namespace BibliotecaProject.VentanasAdmin
         }
 
         private void btYes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DMLLibros_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtISBN_Load(object sender, EventArgs e)
         {
 
         }

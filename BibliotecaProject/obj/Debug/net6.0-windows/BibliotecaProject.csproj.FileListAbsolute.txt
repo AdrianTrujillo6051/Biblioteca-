@@ -132,3 +132,45 @@ C:\Users\MIPC\Downloads\popo\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-wind
 C:\Users\MIPC\Downloads\popo\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.genruntimeconfig.cache
 C:\Users\MIPC\Downloads\popo\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\ref\BibliotecaProject.dll
 C:\Users\MIPC\Downloads\popo\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliCubi.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\BibliotecaProject.exe
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\BibliotecaProject.deps.json
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\BibliotecaProject.runtimeconfig.json
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\BibliotecaProject.dll
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\BibliotecaProject.pdb
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\Conexiones.dll
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\ObjPersonalizados.dll
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\Conexiones.pdb
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\bin\Debug\net6.0-windows\ObjPersonalizados.pdb
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.csproj.AssemblyReference.cache
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.Principal.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.Properties.Resources.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.ReposoForm.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLAdministrativos.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLAlumn.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLCubi.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliAd.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliAlum.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliCubi.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliLibros.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLLibros.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLMain.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasUsers.LibrosPrestamos.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasUsers.BuscadorLibros.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasUsers.Cubiculos.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasUsers.Prestamos.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.csproj.GenerateResource.cache
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.AssemblyInfoInputs.cache
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.AssemblyInfo.cs
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.csproj.CoreCompileInputs.cache
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.csproj.CopyComplete
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.dll
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\refint\BibliotecaProject.dll
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.pdb
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.genruntimeconfig.cache
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\ref\BibliotecaProject.dll
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLModiAdmin.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLModiAlum.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLModiCubi.resources
+C:\Users\PC R5\Desktop\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLModiLibro.resources

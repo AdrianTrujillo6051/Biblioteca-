@@ -12,7 +12,7 @@ namespace Conexiones
             DataSet DS = null;
             try 
             {
-                String datosCon = "server=localhost;user=root;database=biblioteca;port=3306;password=";
+                String datosCon = "server=localhost;user=root;database=biblioteca;port=3306;password=admin";
                 con = new MySqlConnection(datosCon);
                 con.Open();
 

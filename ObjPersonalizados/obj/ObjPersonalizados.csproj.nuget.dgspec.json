@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj": {}
+    "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj": {
+    "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
+        "projectUniqueName": "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
         "projectName": "ObjPersonalizados",
-        "projectPath": "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
-        "packagesPath": "C:\\Users\\MIPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\ObjPersonalizados\\obj\\",
+        "projectPath": "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
+        "packagesPath": "C:\\Users\\PC R5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\ObjPersonalizados\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MIPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\PC R5\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

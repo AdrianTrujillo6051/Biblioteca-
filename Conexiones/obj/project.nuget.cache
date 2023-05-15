@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qyksk8gso6T6nGqikFX+ZuL5TrCX+vUmzI6a3VxSqvCbWUWptPIJ1Cwe/+e1pqzd4tvVMsW2ThX2iAyM0/Hnzw==",
+  "dgSpecHash": "xiBKPBZ/EwxF80hPju+nQEWRPphcj5CEDBYrDZZKl1w6idVU9z8797/7SPuDwItD/yFLqn86cTt/JJXVslMJOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MIPC\\Downloads\\popo\\Biblioteca-\\Conexiones\\Conexiones.csproj",
+  "projectFilePath": "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\Conexiones\\Conexiones.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MIPC\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+    "C:\\Users\\PC R5\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
   ],
   "logs": []
 }
