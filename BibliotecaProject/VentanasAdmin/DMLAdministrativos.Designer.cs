@@ -265,6 +265,7 @@
             Controls.Add(codigoAdminsTXT);
             Name = "DMLAdministrativos";
             Text = "DMLAdministrativos";
+            Load += DMLAdministrativos_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorPAd).EndInit();
             ResumeLayout(false);

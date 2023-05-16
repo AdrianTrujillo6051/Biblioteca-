@@ -32,7 +32,12 @@ namespace BibliotecaProject.VentanasAdmin
 
 
             }
-            catch (Exception ex) { MessageBox.Show("Error inesperado, datos invalidos o no existen"); }
+            catch (Exception ex) { MessageBox.Show("Error inesperado, datos invalidos o no existen");
+                CodigoAdmiTXT.Text = null;
+                CodigAdmTXT.Text = null;
+                NameAdmTXT.Text = null;
+                EmailAdmTXT.Text = null;
+            }
         }
 
         private void Eliminar_Click(object sender, EventArgs e)

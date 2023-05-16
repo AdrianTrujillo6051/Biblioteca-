@@ -48,11 +48,12 @@
             cbIdiomas = new ComboBox();
             txtCanPres = new ObjPersonalizados.TextBoxDML();
             txtPaginas = new ObjPersonalizados.TextBoxDML();
-            txtFechaPubli = new ObjPersonalizados.TextBoxDML();
             btGuardarLibro = new ObjPersonalizados.ButtonDML();
             pictureBox1 = new PictureBox();
             cbDispoL = new ComboBox();
             errorFormulario = new ErrorProvider(components);
+            lblFecha = new Label();
+            datexd = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)errorFormulario).BeginInit();
             SuspendLayout();
@@ -169,6 +170,7 @@
             txtISBN.soloLetras = false;
             txtISBN.soloNumeros = false;
             txtISBN.TabIndex = 16;
+            txtISBN.Load += txtISBN_Load;
             // 
             // txtTitulo
             // 
@@ -258,19 +260,6 @@
             txtPaginas.soloNumeros = false;
             txtPaginas.TabIndex = 26;
             // 
-            // txtFechaPubli
-            // 
-            txtFechaPubli.BackColor = Color.Transparent;
-            txtFechaPubli.ForeColor = Color.FromArgb(26, 30, 41);
-            txtFechaPubli.Location = new Point(266, 216);
-            txtFechaPubli.Name = "txtFechaPubli";
-            txtFechaPubli.Padding = new Padding(7);
-            txtFechaPubli.passCaracter = false;
-            txtFechaPubli.Size = new Size(250, 36);
-            txtFechaPubli.soloLetras = false;
-            txtFechaPubli.soloNumeros = false;
-            txtFechaPubli.TabIndex = 27;
-            // 
             // btGuardarLibro
             // 
             btGuardarLibro.BackColor = Color.FromArgb(106, 110, 121);
@@ -312,15 +301,36 @@
             // 
             errorFormulario.ContainerControl = this;
             // 
+            // lblFecha
+            // 
+            lblFecha.AutoSize = true;
+            lblFecha.Location = new Point(838, 35);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(22, 15);
+            lblFecha.TabIndex = 74;
+            lblFecha.Text = "XD";
+            lblFecha.Visible = false;
+            // 
+            // datexd
+            // 
+            datexd.CustomFormat = "yyyy-MM";
+            datexd.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            datexd.Format = DateTimePickerFormat.Custom;
+            datexd.Location = new Point(266, 213);
+            datexd.Name = "datexd";
+            datexd.Size = new Size(250, 39);
+            datexd.TabIndex = 75;
+            // 
             // DMLLibros
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1081, 635);
+            Controls.Add(datexd);
+            Controls.Add(lblFecha);
             Controls.Add(cbDispoL);
             Controls.Add(pictureBox1);
             Controls.Add(btGuardarLibro);
-            Controls.Add(txtFechaPubli);
             Controls.Add(txtPaginas);
             Controls.Add(txtCanPres);
             Controls.Add(cbIdiomas);
@@ -341,6 +351,7 @@
             Controls.Add(label1);
             Name = "DMLLibros";
             Text = "Idiomas";
+            Load += DMLLibros_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorFormulario).EndInit();
             ResumeLayout(false);
@@ -367,10 +378,11 @@
         private ComboBox cbIdiomas;
         private ObjPersonalizados.TextBoxDML txtCanPres;
         private ObjPersonalizados.TextBoxDML txtPaginas;
-        private ObjPersonalizados.TextBoxDML txtFechaPubli;
         private ObjPersonalizados.ButtonDML btGuardarLibro;
         private PictureBox pictureBox1;
         private ComboBox cbDispoL;
         private ErrorProvider errorFormulario;
+        private Label lblFecha;
+        private DateTimePicker datexd;
     }
 }

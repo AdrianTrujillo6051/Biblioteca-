@@ -17,14 +17,15 @@ namespace BibliotecaProject.VentanasAdmin
             InitializeComponent();
         }
 
-         private bool Validalum()
-        {  
+        private bool Validalum()
+        {
             bool notEmpty = true;
 
-             if (codigoAlumnoTXT.getTextFromTXT() == string.Empty) {
-                 notEmpty = false;
-                 errorPA.SetError(codigoAlumnoTXT, "No admite campos vacios");
-             }
+            if (codigoAlumnoTXT.getTextFromTXT() == string.Empty)
+            {
+                notEmpty = false;
+                errorPA.SetError(codigoAlumnoTXT, "No admite campos vacios");
+            }
 
             if (nombreAlumnoTXT.getTextFromTXT() == string.Empty)
             {
@@ -32,11 +33,11 @@ namespace BibliotecaProject.VentanasAdmin
                 errorPA.SetError(nombreAlumnoTXT, "No admite campos vacios");
             }
 
-            if (cumAlumnoTXT.getTextFromTXT() == string.Empty)
+            /*if (cumAlumnoTXT.getTextFromTXT() == string.Empty)
             {
                 notEmpty = false;
                 errorPA.SetError(cumAlumnoTXT, "No admite campos vacios");
-            }
+            }*/
 
             if (NSSAlumnoTXT.getTextFromTXT() == string.Empty)
             {
@@ -58,7 +59,7 @@ namespace BibliotecaProject.VentanasAdmin
 
 
             return notEmpty;
-         }
+        }
 
 
         private void SaveAlBtn_Click(object sender, EventArgs e)
@@ -69,16 +70,38 @@ namespace BibliotecaProject.VentanasAdmin
             {
                 try
                 {
+                    DateTime fechax = datexd.Value;
+                    string formato = "yyyy/MM/dd";
+                    lblFecha.Text = fechax.ToString(formato);
 
-
-                    comandoInsert = string.Format("INSERT INTO alumnos(codigo, nombre, fechaN, nss, numeroT, correoIns) VALUES ({0}, '{1}', '{2}', {3}, {4}, '{5}');", codigoAlumnoTXT.getTextFromTXT(), nombreAlumnoTXT.getTextFromTXT(), cumAlumnoTXT.getTextFromTXT(), NSSAlumnoTXT.getTextFromTXT(), telefonoAlumnoTXT.getTextFromTXT(), correoAlumnoTXT.getTextFromTXT());
+                    comandoInsert = string.Format("INSERT INTO alumnos(codigo, nombre, fechaN, nss, numeroT, correoIns) VALUES ({0}, '{1}', '{2}', {3}, {4}, '{5}');", codigoAlumnoTXT.getTextFromTXT(), nombreAlumnoTXT.getTextFromTXT(), lblFecha.Text, NSSAlumnoTXT.getTextFromTXT(), telefonoAlumnoTXT.getTextFromTXT(), correoAlumnoTXT.getTextFromTXT());
                     //string comandoInsert = string.Format("INSERT INTO alumnos(codigo, nombre, fechaN, nss, numeroT, correoIns) VALUES ({0}, {1}, {2}, {3}, {4}, {5});");
 
                     Conexiones.ConnectDB.RealizarConexion(comandoInsert);
                     MessageBox.Show("Se insertaron los datos correctamente");
+                    datexd.Value = DateTime.Now;
+
+
+                    //limpiar registro 
+                    codigoAlumnoTXT.setTextFromTXT(" ");
+                    nombreAlumnoTXT.setTextFromTXT(" ");
+                    NSSAlumnoTXT.setTextFromTXT(" ");
+                    telefonoAlumnoTXT.setTextFromTXT(" ");
+                    correoAlumnoTXT.setTextFromTXT(" ");
+                    datexd.Value = DateTime.Now;
                 }
                 catch (Exception ex) { MessageBox.Show("Error innesperado, datos ya existentes o invalidos"); }
             }
+        }
+
+        private void codigoAlumnoTXT_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DMLAlumn_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

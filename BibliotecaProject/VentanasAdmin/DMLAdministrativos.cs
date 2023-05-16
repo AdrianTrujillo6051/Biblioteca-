@@ -80,11 +80,25 @@ namespace BibliotecaProject.VentanasAdmin
                     Conexiones.ConnectDB.RealizarConexion(comandoInsert);
                     MessageBox.Show("Se ha insertado correctamente");
 
+                    //limpiar registro 
+                    codigoAdminsTXT.setTextFromTXT(" ");
+                    nombreAdminsTXT.setTextFromTXT(" ");
+                    NSSAdminsTXT.setTextFromTXT(" ");
+                    telefonoAdminsTXT.setTextFromTXT(" ");
+                    correoAdminsTXT.setTextFromTXT(" ");
+                    horarioAdminsTXT.setTextFromTXT ("");
+                    puestoAdminsTXT.setTextFromTXT("");
+
 
                 }
                 catch (Exception ex)
                 { MessageBox.Show("Error de insercion, dato invalido o ya incertado"); }
             }
+        }
+
+        private void DMLAdministrativos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -34,3 +34,27 @@ C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\Conexiones\obj\Debug\net6.0\Conex
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\Conexiones\obj\Debug\net6.0\refint\Conexiones.dll
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.pdb
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\Conexiones\obj\Debug\net6.0\ref\Conexiones.dll
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.deps.json
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.dll
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.pdb
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.csproj.AssemblyReference.cache
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.AssemblyInfoInputs.cache
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.AssemblyInfo.cs
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.csproj.CoreCompileInputs.cache
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.dll
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\refint\Conexiones.dll
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.pdb
+C:\Users\MIPC\Downloads\popo\Biblioteca-\Conexiones\obj\Debug\net6.0\ref\Conexiones.dll
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.deps.json
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.dll
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\bin\Debug\net6.0\Conexiones.pdb
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.csproj.AssemblyReference.cache
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.AssemblyInfoInputs.cache
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.AssemblyInfo.cs
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.csproj.CoreCompileInputs.cache
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.dll
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\refint\Conexiones.dll
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\Conexiones.pdb
+C:\Users\PC R5\Desktop\Biblioteca-\Conexiones\obj\Debug\net6.0\ref\Conexiones.dll

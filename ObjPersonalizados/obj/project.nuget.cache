@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "sN46sByUE5Z4AACfheeAW0zWE0RS7Boo6Kh/PnUVQEzrr2UZpPWjoHcf550nyV3LMwnowx8i6KpmonbOxbEBYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
+=======
+  "dgSpecHash": "5SHRCH5ZmVnOS0hEca6/rXNTKOjsP8LU0ywyLJum3d7bTb4rkAy+otIjHnVKfCp5vuX+lzzAknIGabqi38ekjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
+>>>>>>> 850d047c761b80e7d9ce0b7aac9a8879b3e06fa7
   "expectedPackageFiles": [],
   "logs": []
 }

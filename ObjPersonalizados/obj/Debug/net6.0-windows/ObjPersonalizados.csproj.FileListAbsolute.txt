@@ -58,3 +58,43 @@ C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\ObjPersonalizados\obj\Debug\net6.
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\refint\ObjPersonalizados.dll
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.pdb
 C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ref\ObjPersonalizados.dll
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\bin\Debug\net6.0-windows\ObjPersonalizados.deps.json
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\bin\Debug\net6.0-windows\ObjPersonalizados.dll
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\bin\Debug\net6.0-windows\ObjPersonalizados.pdb
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.csproj.AssemblyReference.cache
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.ButtonDML.resources
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.CircleButton.resources
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.CubiculosButton.resources
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.NoHagoNadaSoloFacilitoTrabajo.resources
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.Properties.Resources.resources
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.TextBoxDML.resources
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.TextBoxPers.resources
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.csproj.GenerateResource.cache
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.AssemblyInfoInputs.cache
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.AssemblyInfo.cs
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.csproj.CoreCompileInputs.cache
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.dll
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\refint\ObjPersonalizados.dll
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.pdb
+C:\Users\MIPC\Downloads\popo\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ref\ObjPersonalizados.dll
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\bin\Debug\net6.0-windows\ObjPersonalizados.deps.json
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\bin\Debug\net6.0-windows\ObjPersonalizados.dll
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\bin\Debug\net6.0-windows\ObjPersonalizados.pdb
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.csproj.AssemblyReference.cache
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.ButtonDML.resources
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.CircleButton.resources
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.CubiculosButton.resources
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.NoHagoNadaSoloFacilitoTrabajo.resources
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.Properties.Resources.resources
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.TextBoxDML.resources
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.TextBoxPers.resources
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.csproj.GenerateResource.cache
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.AssemblyInfoInputs.cache
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.AssemblyInfo.cs
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.csproj.CoreCompileInputs.cache
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.dll
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\refint\ObjPersonalizados.dll
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ObjPersonalizados.pdb
+C:\Users\PC R5\Desktop\Biblioteca-\ObjPersonalizados\obj\Debug\net6.0-windows\ref\ObjPersonalizados.dll

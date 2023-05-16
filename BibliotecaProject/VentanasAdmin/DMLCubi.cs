@@ -105,5 +105,10 @@ namespace BibliotecaProject.VentanasAdmin
 
 
         }
+
+        private void cbDispo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
