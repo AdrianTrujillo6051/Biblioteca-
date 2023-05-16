@@ -37,6 +37,9 @@
     <Compile Update="VentanasAdmin\LibrosPrestamos.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VentanasUsers\EntradaSalidacs.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="VentanasUsers\Prestamos.cs">
       <SubType>Form</SubType>
     </Compile>

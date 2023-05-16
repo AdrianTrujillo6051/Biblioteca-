@@ -94,3 +94,4 @@ C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj
 C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliAd.resources
 C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliAlum.resources
 C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLLibros.resources
+C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasUsers.EntradaSalidacs.resources

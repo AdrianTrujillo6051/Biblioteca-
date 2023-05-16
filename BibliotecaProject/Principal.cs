@@ -14,6 +14,7 @@ namespace BibliotecaProject
         //Variables usadas en la configuracion de botones admin or user
         int posXNextElement = 0;
         Boolean primeraIteracion = true;
+        Boolean loginExitoso = true;
 
         //Variable para el control de formularios
         UtilGraficos utilGraficos = new UtilGraficos();
@@ -27,20 +28,24 @@ namespace BibliotecaProject
 
 
 
-            Boolean admin = true;
+            Boolean admin = false;
 
-            try 
+            try
             {
                 //Hacemos una consulta del ultimo Login a la BD para setear si es Admin o Alumno
-                DataSet datos = Conexiones.ConnectDB.RealizarConexion("SELECT * FROM usuarios WHERE id = (SELECT id FROM logoutfuera);");
-                string isAdminQuerry = datos.Tables[0].Rows[0]["esAdmin"].ToString();
-                string util;
+                DataSet datos = Conexiones.ConnectDB.RealizarConexion("SELECT usuario_id FROM gente_biblioteca;");
+                string util = datos.Tables[0].Rows[0]["usuario_id"].ToString();
 
-                if (isAdminQuerry == "1")
+                util = string.Format("DELETE FROM gente_biblioteca WHERE usuario_id = {0}; SELECT * FROM usuarios WHERE id = ({0});", util);
+                datos = Conexiones.ConnectDB.RealizarConexion(util);
+                string isAdminQuerry = datos.Tables[0].Rows[0]["esAdmin"].ToString();
+
+
+                if (isAdminQuerry == "True")
                 {
                     //Obtenemos nombre y seteamos nivel de privilegio :)
                     admin = true;
-                    util = datos.Tables[0].Rows[0]["codigoAdmin"].ToString();
+                    util = datos.Tables[0].Rows[0]["codigo_administrativo"].ToString();
                     util = string.Format("SELECT nombre_admin FROM administrativos WHERE codigo_admin = {0};", util);
                     datos = Conexiones.ConnectDB.RealizarConexion(util);
                     util = datos.Tables[0].Rows[0]["nombre_admin"].ToString();
@@ -51,22 +56,22 @@ namespace BibliotecaProject
                 {
                     //Obtenemos nombre y seteamos nvel de privilegio
                     admin = false;
-                    util = datos.Tables[0].Rows[0]["codigoAlumm"].ToString();
+                    util = datos.Tables[0].Rows[0]["codigo_alumno"].ToString();
                     util = string.Format("SELECT nombre FROM alumnos WHERE codigo = {0};", util);
                     datos = Conexiones.ConnectDB.RealizarConexion(util);
-                    util = datos.Tables[0].Rows[0]["nombre_admin"].ToString();
+                    util = datos.Tables[0].Rows[0]["nombre"].ToString();
 
                     UserLBL.Text = string.Format("Bienvenido: {0}", util);
                 }
             }
             catch (Exception ex)
             {
-                //MessageBox.Show("Ups... " + ex);
+                MessageBox.Show("No se ha iniciado ninguna sesión recientemente, abriendo usuario.");
             }
 
 
 
-            
+
 
             //Cargamos el chatBot o alguna otra mamada:)
             ReposoForm form = new ReposoForm();
@@ -196,9 +201,12 @@ namespace BibliotecaProject
             formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
-        private void PanelLayout_Paint(object sender, PaintEventArgs e)
-        {
 
+
+        private void BTNEntrSalid_Click(object sender, EventArgs e)
+        {
+            EntradaSalidacs form = new EntradaSalidacs();
+            formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
         //BOTONES CODIGO DE REDIRECCIONAMIENTO----------------------------------------------------------------------------------------------------------------------------------

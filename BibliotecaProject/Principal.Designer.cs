@@ -103,7 +103,6 @@
             PanelLayout.Name = "PanelLayout";
             PanelLayout.Size = new Size(1130, 175);
             PanelLayout.TabIndex = 2;
-            PanelLayout.Paint += PanelLayout_Paint;
             // 
             // entradasLBL
             // 
@@ -257,6 +256,7 @@
             BTNEntrSalid.Size = new Size(51, 63);
             BTNEntrSalid.TabIndex = 6;
             BTNEntrSalid.UseVisualStyleBackColor = false;
+            BTNEntrSalid.Click += BTNEntrSalid_Click;
             // 
             // BTNGenteEnBib
             // 
