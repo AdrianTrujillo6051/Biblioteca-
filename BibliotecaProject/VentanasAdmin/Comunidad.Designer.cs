@@ -31,13 +31,21 @@
             closeBTN = new ObjPersonalizados.CircleButton();
             Formulario = new Panel();
             panelForm = new Panel();
+            izquierda = new Panel();
+            AlumnosDGV = new DataGridView();
+            derecha = new Panel();
+            AdministrativosDGV = new DataGridView();
             panelInfo = new Panel();
+            label1 = new Label();
+            label2 = new Label();
             label7 = new Label();
-            dataGridView1 = new DataGridView();
             Formulario.SuspendLayout();
             panelForm.SuspendLayout();
+            izquierda.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)AlumnosDGV).BeginInit();
+            derecha.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)AdministrativosDGV).BeginInit();
             panelInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // closeBTN
@@ -67,7 +75,7 @@
             Formulario.Controls.Add(panelInfo);
             Formulario.Location = new Point(107, 57);
             Formulario.Name = "Formulario";
-            Formulario.Size = new Size(971, 355);
+            Formulario.Size = new Size(971, 542);
             Formulario.TabIndex = 24;
             // 
             // panelForm
@@ -75,17 +83,60 @@
             panelForm.AutoScroll = true;
             panelForm.BackColor = SystemColors.Control;
             panelForm.BorderStyle = BorderStyle.FixedSingle;
-            panelForm.Controls.Add(dataGridView1);
+            panelForm.Controls.Add(izquierda);
+            panelForm.Controls.Add(derecha);
             panelForm.Dock = DockStyle.Fill;
             panelForm.Location = new Point(0, 102);
             panelForm.Name = "panelForm";
-            panelForm.Size = new Size(969, 251);
+            panelForm.Size = new Size(969, 438);
             panelForm.TabIndex = 1;
+            // 
+            // izquierda
+            // 
+            izquierda.Controls.Add(AlumnosDGV);
+            izquierda.Dock = DockStyle.Fill;
+            izquierda.Location = new Point(0, 0);
+            izquierda.Name = "izquierda";
+            izquierda.Size = new Size(510, 436);
+            izquierda.TabIndex = 2;
+            // 
+            // AlumnosDGV
+            // 
+            AlumnosDGV.BackgroundColor = SystemColors.Control;
+            AlumnosDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            AlumnosDGV.Dock = DockStyle.Fill;
+            AlumnosDGV.Location = new Point(0, 0);
+            AlumnosDGV.Name = "AlumnosDGV";
+            AlumnosDGV.RowTemplate.Height = 25;
+            AlumnosDGV.Size = new Size(510, 436);
+            AlumnosDGV.TabIndex = 0;
+            // 
+            // derecha
+            // 
+            derecha.Controls.Add(AdministrativosDGV);
+            derecha.Dock = DockStyle.Right;
+            derecha.Location = new Point(510, 0);
+            derecha.Name = "derecha";
+            derecha.Size = new Size(457, 436);
+            derecha.TabIndex = 1;
+            // 
+            // AdministrativosDGV
+            // 
+            AdministrativosDGV.BackgroundColor = SystemColors.Control;
+            AdministrativosDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            AdministrativosDGV.Dock = DockStyle.Fill;
+            AdministrativosDGV.Location = new Point(0, 0);
+            AdministrativosDGV.Name = "AdministrativosDGV";
+            AdministrativosDGV.RowTemplate.Height = 25;
+            AdministrativosDGV.Size = new Size(457, 436);
+            AdministrativosDGV.TabIndex = 0;
             // 
             // panelInfo
             // 
             panelInfo.BackColor = Color.FromArgb(19, 45, 70);
             panelInfo.BorderStyle = BorderStyle.FixedSingle;
+            panelInfo.Controls.Add(label1);
+            panelInfo.Controls.Add(label2);
             panelInfo.Controls.Add(label7);
             panelInfo.Dock = DockStyle.Top;
             panelInfo.Location = new Point(0, 0);
@@ -93,25 +144,38 @@
             panelInfo.Size = new Size(969, 102);
             panelInfo.TabIndex = 0;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.Location = new Point(528, 68);
+            label1.Name = "label1";
+            label1.Size = new Size(156, 30);
+            label1.TabIndex = 14;
+            label1.Text = "Administrativos";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ButtonHighlight;
+            label2.Location = new Point(20, 68);
+            label2.Name = "label2";
+            label2.Size = new Size(95, 30);
+            label2.TabIndex = 13;
+            label2.Text = "Alumnos";
+            // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Black", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label7.ForeColor = SystemColors.Control;
-            label7.Location = new Point(11, -1);
+            label7.Location = new Point(12, 0);
             label7.Name = "label7";
-            label7.Size = new Size(351, 45);
+            label7.Size = new Size(437, 45);
             label7.TabIndex = 11;
-            label7.Text = "Gente en biblioteca :)\r\n";
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(252, 41);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(297, 143);
-            dataGridView1.TabIndex = 0;
+            label7.Text = "Usuarios de la biblioteca :)\r\n";
             // 
             // Comunidad
             // 
@@ -124,9 +188,12 @@
             Text = "Comunidad";
             Formulario.ResumeLayout(false);
             panelForm.ResumeLayout(false);
+            izquierda.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)AlumnosDGV).EndInit();
+            derecha.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)AdministrativosDGV).EndInit();
             panelInfo.ResumeLayout(false);
             panelInfo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -135,8 +202,13 @@
         private ObjPersonalizados.CircleButton closeBTN;
         private Panel Formulario;
         private Panel panelForm;
-        private DataGridView dataGridView1;
+        private DataGridView AlumnosDGV;
         private Panel panelInfo;
         private Label label7;
+        private Panel izquierda;
+        private Panel derecha;
+        private DataGridView AdministrativosDGV;
+        private Label label1;
+        private Label label2;
     }
 }

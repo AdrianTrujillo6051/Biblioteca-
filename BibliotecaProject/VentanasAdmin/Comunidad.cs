@@ -15,6 +15,18 @@ namespace BibliotecaProject.VentanasAdmin
         public Comunidad()
         {
             InitializeComponent();
+
+            try
+            {
+                //PrestamosInfo.DataSource = ds.Tables[0];
+                AlumnosDGV.DataSource = Conexiones.ConnectDB.RealizarConexion("SELECT alumnos.nombre, alumnos.codigo FROM alumnos, usuarios WHERE usuarios.codigo_alumno = alumnos.codigo;").Tables[0];
+                AdministrativosDGV.DataSource = Conexiones.ConnectDB.RealizarConexion("SELECT administrativos.nombre_admin, administrativos.codigo_admin FROM administrativos, usuarios WHERE  usuarios.codigo_administrativo  = administrativos.codigo_admin;").Tables[0];
+            }
+            catch
+            {
+                MessageBox.Show("Error inesperado...");
+            }
+
         }
     }
 }

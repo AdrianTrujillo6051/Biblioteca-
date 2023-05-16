@@ -275,6 +275,7 @@
             BTNGenteEnBib.Size = new Size(51, 63);
             BTNGenteEnBib.TabIndex = 5;
             BTNGenteEnBib.UseVisualStyleBackColor = false;
+            BTNGenteEnBib.Click += BTNGenteEnBib_Click;
             // 
             // BTNPrestCub
             // 

@@ -222,3 +222,16 @@ C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT - copia - copia - copia - copia\B
 C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT - copia - copia - copia - copia\Biblioteca-\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.genruntimeconfig.cache
 C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT - copia - copia - copia - copia\Biblioteca-\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\ref\BibliotecaProject.dll
 C:\Users\SrPap\OneDrive\Escritorio\ProyectoGIT - copia - copia - copia - copia\Biblioteca-\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.Comunidad.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.Comunidad.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLAdministrativos.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLCubi.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliAd.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliAlum.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliCubi.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLEliLibros.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLLibros.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLModiAdmin.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLModiAlum.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLModiCubi.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasAdmin.DMLModiLibro.resources
+C:\Users\SrPap\OneDrive\Escritorio\Biblioteca-\BibliotecaProject\obj\Debug\net6.0-windows\BibliotecaProject.VentanasUsers.EntradaSalidacs.resources

@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\Conexiones\\Conexiones.csproj",
+      "projectUniqueName": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\Conexiones\\Conexiones.csproj",
       "projectName": "Conexiones",
-      "projectPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\Conexiones\\Conexiones.csproj",
+      "projectPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\Conexiones\\Conexiones.csproj",
       "packagesPath": "C:\\Users\\SrPap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\Conexiones\\obj\\",
+      "outputPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\Conexiones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,13 +119,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\Conexiones\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

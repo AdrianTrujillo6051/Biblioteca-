@@ -209,6 +209,12 @@ namespace BibliotecaProject
             formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
         }
 
+        private void BTNGenteEnBib_Click(object sender, EventArgs e)
+        {
+            Comunidad form = new Comunidad();
+            formActivo = utilGraficos.openForm(form, this.formActivo, this.PanelSubventanas);
+        }
+
         //BOTONES CODIGO DE REDIRECCIONAMIENTO----------------------------------------------------------------------------------------------------------------------------------
 
 

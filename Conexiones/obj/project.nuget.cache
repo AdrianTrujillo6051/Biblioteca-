@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JFDO+VOED1Dx6B+QuiQBRIP/26uSppC1O3K0r6NhqcwY5ejh5hHq80VZ4OHRanb9Cn9MjzdiVntsmIdCXONZqA==",
+  "dgSpecHash": "9s47hwnXR1eMCtVgKMg0aVow1+MxgT52sNNAVvQmoAvfcnMdtIV/HGDI7Epq7u/mwm978m+046548n/Qz+j7BQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\Conexiones\\Conexiones.csproj",
+  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\Conexiones\\Conexiones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SrPap\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\Conexiones\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj": {}
+    "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj": {
+    "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
+        "projectUniqueName": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
         "projectName": "ObjPersonalizados",
-        "projectPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
+        "projectPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
         "packagesPath": "C:\\Users\\SrPap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\obj\\",
+        "outputPath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\ObjPersonalizados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

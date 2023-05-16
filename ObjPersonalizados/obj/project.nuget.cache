@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cdk/BtgDXQTQCLYknDGSnTTWXq95zb5nGBsD6cR0jnce+SXLYPbY3K5C2vi670S+4LmBNV1dXeDjE5NsEQjO8g==",
+  "dgSpecHash": "fmGdLnurVof+QA0DFEraP1R+xj7aQ0lttZC66KDkZP+zIGi7eaa+Bvl8K4ggVE04YnzZZShSJcVgd8mBxljf8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
+  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
