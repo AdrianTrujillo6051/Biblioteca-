@@ -66,7 +66,7 @@ namespace BibliotecaProject
             }
             catch (Exception ex)
             {
-                MessageBox.Show("No se ha iniciado ninguna sesión recientemente, abriendo usuario.");
+                MessageBox.Show("No se ha iniciado ninguna sesión recientemente, abriendo usuario. Error: " + ex);
             }
 
 

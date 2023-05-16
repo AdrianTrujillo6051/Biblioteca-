@@ -7,6 +7,9 @@
     <Compile Update="ReposoForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VentanasAdmin\Comunidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="VentanasAdmin\DMLAdministrativos.cs">
       <SubType>Form</SubType>
     </Compile>

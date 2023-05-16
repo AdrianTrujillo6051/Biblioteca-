@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "sN46sByUE5Z4AACfheeAW0zWE0RS7Boo6Kh/PnUVQEzrr2UZpPWjoHcf550nyV3LMwnowx8i6KpmonbOxbEBYQ==",
+  "dgSpecHash": "Cdk/BtgDXQTQCLYknDGSnTTWXq95zb5nGBsD6cR0jnce+SXLYPbY3K5C2vi670S+4LmBNV1dXeDjE5NsEQjO8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
-=======
-  "dgSpecHash": "5SHRCH5ZmVnOS0hEca6/rXNTKOjsP8LU0ywyLJum3d7bTb4rkAy+otIjHnVKfCp5vuX+lzzAknIGabqi38ekjQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
->>>>>>> 850d047c761b80e7d9ce0b7aac9a8879b3e06fa7
+  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\ObjPersonalizados.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\ObjPersonalizados\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

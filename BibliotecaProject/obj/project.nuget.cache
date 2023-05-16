@@ -1,16 +1,17 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "G3ZtZ4giohriWIYYzEQ9wuSq4A+wEWmhgE44Xb+3YDr9Vx3e2rXgXdq/9f5FwN6mj9ctBwkOhO7YK8/p2L/6IQ==",
+  "dgSpecHash": "VQ+R2WFcgyQETMnueLpX7L6CH14mEIk0+bhV8krFbp6z+4ENMSC65PZyS/dCuDKw/X/iVmsG9zYXbknMmQ9PXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia\\Biblioteca-\\BibliotecaProject\\BibliotecaProject.csproj",
-=======
-  "dgSpecHash": "4FdmkHVI5L0LOXOgeE+yt+sBBkb5STYytRrbs2vm/LJl9CRoxgulcLp7Cc2wfzZ2XCXsk1TKw7pWQ5sDs2pYDQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\PC R5\\Desktop\\Biblioteca-\\BibliotecaProject\\BibliotecaProject.csproj",
->>>>>>> 850d047c761b80e7d9ce0b7aac9a8879b3e06fa7
+  "projectFilePath": "C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\BibliotecaProject\\BibliotecaProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC R5\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+    "C:\\Users\\SrPap\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\SrPap\\OneDrive\\Escritorio\\ProyectoGIT - copia - copia - copia - copia\\Biblioteca-\\Biblioteca-\\BibliotecaProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
